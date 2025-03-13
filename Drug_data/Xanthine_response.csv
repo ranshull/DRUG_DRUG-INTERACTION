@@ -1,0 +1,606 @@
+﻿cid2,cid,dbid,name,dbid2,name2,descr
+244,1188,DB02134,Xanthine,DB06770,Benzyl alcohol,The metabolism of Benzyl alcohol can be decreased when combined with Xanthine.
+681,1188,DB02134,Xanthine,DB00988,Dopamine,The risk or severity of adverse effects can be increased when Dopamine is combined with Xanthine.
+702,1188,DB02134,Xanthine,DB00898,Ethanol,The metabolism of Xanthine can be decreased when combined with Ethanol.
+790,1188,DB02134,Xanthine,DB04076,Hypoxanthine,The metabolism of Hypoxanthine can be decreased when combined with Xanthine.
+896,1188,DB02134,Xanthine,DB01065,Melatonin,The metabolism of Xanthine can be decreased when combined with Melatonin.
+1614,1188,DB02134,Xanthine,DB01509,Tenamfetamine,The risk or severity of adverse effects can be increased when Tenamfetamine is combined with Xanthine.
+1615,1188,DB02134,Xanthine,DB01454,Midomafetamine,The risk or severity of adverse effects can be increased when Midomafetamine is combined with Xanthine.
+1646,1188,DB02134,Xanthine,DB06527,Tramiprosate,Tramiprosate may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+1775,1188,DB02134,Xanthine,DB00252,Phenytoin,The serum concentration of Xanthine can be decreased when it is combined with Phenytoin.
+1893,1188,DB02134,Xanthine,DB02207,7-Nitroindazole,7-Nitroindazole may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+1935,1188,DB02134,Xanthine,DB00382,Tacrine,The metabolism of Xanthine can be decreased when combined with Tacrine.
+1978,1188,DB02134,Xanthine,DB01193,Acebutolol,The risk or severity of adverse effects can be increased when Acebutolol is combined with Xanthine.
+1983,1188,DB02134,Xanthine,DB00316,Acetaminophen,The metabolism of Xanthine can be decreased when combined with Acetaminophen.
+1986,1188,DB02134,Xanthine,DB00819,Acetazolamide,Acetazolamide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+2022,1188,DB02134,Xanthine,DB00787,Acyclovir,The metabolism of Xanthine can be decreased when combined with Acyclovir.
+2082,1188,DB02134,Xanthine,DB00518,Albendazole,The metabolism of Xanthine can be increased when combined with Albendazole.
+2083,1188,DB02134,Xanthine,DB01001,Albuterol,The risk or severity of hypokalemia can be increased when Xanthine is combined with Salbutamol.
+2094,1188,DB02134,Xanthine,DB00437,Allopurinol,The serum concentration of Xanthine can be increased when it is combined with Allopurinol.
+2099,1188,DB02134,Xanthine,DB00969,Alosetron,The metabolism of Xanthine can be decreased when combined with Alosetron.
+2118,1188,DB02134,Xanthine,DB00404,Alprazolam,The therapeutic efficacy of Alprazolam can be decreased when used in combination with Xanthine.
+2119,1188,DB02134,Xanthine,DB00866,Alprenolol,The risk or severity of adverse effects can be increased when Alprenolol is combined with Xanthine.
+2153,1188,DB02134,Xanthine,DB00277,Theophylline,The metabolism of Xanthine can be decreased when combined with Theophylline.
+2157,1188,DB02134,Xanthine,DB01118,Amiodarone,The serum concentration of Xanthine can be increased when it is combined with Amiodarone.
+2160,1188,DB02134,Xanthine,DB00321,Amitriptyline,The metabolism of Xanthine can be decreased when combined with Amitriptyline.
+2164,1188,DB02134,Xanthine,DB01351,Amobarbital,The serum concentration of Xanthine can be decreased when it is combined with Amobarbital.
+2182,1188,DB02134,Xanthine,DB00261,Anagrelide,The metabolism of Xanthine can be decreased when combined with Anagrelide.
+2206,1188,DB02134,Xanthine,DB01435,Antipyrine,The metabolism of Xanthine can be decreased when combined with Antipyrine.
+2239,1188,DB02134,Xanthine,DB09204,Arotinolol,The risk or severity of adverse effects can be increased when Arotinolol is combined with Xanthine.
+2249,1188,DB02134,Xanthine,DB00335,Atenolol,The risk or severity of adverse effects can be increased when Atenolol is combined with Xanthine.
+2265,1188,DB02134,Xanthine,DB00993,Azathioprine,The metabolism of Xanthine can be decreased when combined with Azathioprine.
+2267,1188,DB02134,Xanthine,DB00972,Azelastine,The metabolism of Xanthine can be decreased when combined with Azelastine.
+2294,1188,DB02134,Xanthine,DB01483,Barbital,The serum concentration of Xanthine can be decreased when it is combined with Barbital.
+2337,1188,DB02134,Xanthine,DB01086,Benzocaine,The metabolism of Xanthine can be decreased when combined with Benzocaine.
+2361,1188,DB02134,Xanthine,DB06732,beta-Naphthoflavone,The metabolism of Xanthine can be increased when combined with beta-Naphthoflavone.
+2369,1188,DB02134,Xanthine,DB00195,Betaxolol,The risk or severity of adverse effects can be increased when Betaxolol is combined with Xanthine.
+2372,1188,DB02134,Xanthine,DB01295,Bevantolol,The risk or severity of adverse effects can be increased when Bevantolol is combined with Xanthine.
+2405,1188,DB02134,Xanthine,DB00612,Bisoprolol,The risk or severity of adverse effects can be increased when Bisoprolol is combined with Xanthine.
+2441,1188,DB02134,Xanthine,DB01558,Bromazepam,The therapeutic efficacy of Bromazepam can be decreased when used in combination with Xanthine.
+2451,1188,DB02134,Xanthine,DB09017,Brotizolam,The therapeutic efficacy of Brotizolam can be decreased when used in combination with Xanthine.
+2475,1188,DB02134,Xanthine,DB08808,Bupranolol,The risk or severity of adverse effects can be increased when Bupranolol is combined with Xanthine.
+2479,1188,DB02134,Xanthine,DB00237,Butabarbital,The serum concentration of Xanthine can be decreased when it is combined with Butabarbital.
+2481,1188,DB02134,Xanthine,DB00241,Butalbital,The serum concentration of Xanthine can be decreased when it is combined with Butalbital.
+2519,1188,DB02134,Xanthine,DB00201,Caffeine,The metabolism of Xanthine can be decreased when combined with Caffeine.
+2520,1188,DB02134,Xanthine,DB00661,Verapamil,The metabolism of Xanthine can be decreased when combined with Verapamil.
+2543,1188,DB02134,Xanthine,DB14737,Cannabinol,The metabolism of Xanthine can be decreased when combined with Cannabinol.
+2554,1188,DB02134,Xanthine,DB00564,Carbamazepine,The serum concentration of Xanthine can be decreased when it is combined with Carbamazepine.
+2578,1188,DB02134,Xanthine,DB00262,Carmustine,The metabolism of Xanthine can be decreased when combined with Carmustine.
+2585,1188,DB02134,Xanthine,DB01136,Carvedilol,The risk or severity of adverse effects can be increased when Carvedilol is combined with Xanthine.
+2663,1188,DB02134,Xanthine,DB04846,Celiprolol,The risk or severity of adverse effects can be increased when Celiprolol is combined with Xanthine.
+2712,1188,DB02134,Xanthine,DB00475,Chlordiazepoxide,The therapeutic efficacy of Chlordiazepoxide can be decreased when used in combination with Xanthine.
+2726,1188,DB02134,Xanthine,DB00477,Chlorpromazine,The metabolism of Xanthine can be decreased when combined with Chlorpromazine.
+2733,1188,DB02134,Xanthine,DB00356,Chlorzoxazone,The metabolism of Xanthine can be decreased when combined with Chlorzoxazone.
+2754,1188,DB02134,Xanthine,DB01166,Cilostazol,The metabolism of Xanthine can be decreased when combined with Cilostazol.
+2756,1188,DB02134,Xanthine,DB00501,Cimetidine,The metabolism of Xanthine can be decreased when combined with Cimetidine.
+2761,1188,DB02134,Xanthine,DB00568,Cinnarizine,The metabolism of Xanthine can be decreased when combined with Cinnarizine.
+2762,1188,DB02134,Xanthine,DB00827,Cinoxacin,The metabolism of Xanthine can be decreased when combined with Cinoxacin.
+2764,1188,DB02134,Xanthine,DB00537,Ciprofloxacin,The serum concentration of Xanthine can be increased when it is combined with Ciprofloxacin.
+2771,1188,DB02134,Xanthine,DB00215,Citalopram,The metabolism of Xanthine can be decreased when combined with Citalopram.
+2783,1188,DB02134,Xanthine,DB01407,Clenbuterol,The risk or severity of adverse effects can be increased when Clenbuterol is combined with Xanthine.
+2789,1188,DB02134,Xanthine,DB00349,Clobazam,The therapeutic efficacy of Clobazam can be decreased when used in combination with Xanthine.
+2801,1188,DB02134,Xanthine,DB01242,Clomipramine,The metabolism of Xanthine can be decreased when combined with Clomipramine.
+2802,1188,DB02134,Xanthine,DB01068,Clonazepam,The therapeutic efficacy of Clonazepam can be decreased when used in combination with Xanthine.
+2803,1188,DB02134,Xanthine,DB00575,Clonidine,The metabolism of Xanthine can be decreased when combined with Clonidine.
+2809,1188,DB02134,Xanthine,DB00628,Clorazepic acid,The therapeutic efficacy of Clorazepic acid can be decreased when used in combination with Xanthine.
+2811,1188,DB02134,Xanthine,DB01559,Clotiazepam,The therapeutic efficacy of Clotiazepam can be decreased when used in combination with Xanthine.
+2816,1188,DB02134,Xanthine,DB01553,Cloxazolam,The therapeutic efficacy of Cloxazolam can be decreased when used in combination with Xanthine.
+2818,1188,DB02134,Xanthine,DB00363,Clozapine,The metabolism of Xanthine can be decreased when combined with Clozapine.
+2895,1188,DB02134,Xanthine,DB00924,Cyclobenzaprine,The metabolism of Xanthine can be decreased when combined with Cyclobenzaprine.
+2997,1188,DB02134,Xanthine,DB14028,Nordazepam,The therapeutic efficacy of Nordazepam can be decreased when used in combination with Xanthine.
+3007,1188,DB02134,Xanthine,DB00182,Amphetamine,The risk or severity of adverse effects can be increased when Amphetamine is combined with Xanthine.
+3016,1188,DB02134,Xanthine,DB00829,Diazepam,The therapeutic efficacy of Diazepam can be decreased when used in combination with Xanthine.
+3033,1188,DB02134,Xanthine,DB00586,Diclofenac,The metabolism of Xanthine can be decreased when combined with Diclofenac.
+3105,1188,DB02134,Xanthine,DB00449,Dipivefrin,The risk or severity of hypokalemia can be increased when Xanthine is combined with Dipivefrin.
+3114,1188,DB02134,Xanthine,DB00280,Disopyramide,The metabolism of Xanthine can be decreased when combined with Disopyramide.
+3117,1188,DB02134,Xanthine,DB00822,Disulfiram,The serum concentration of Xanthine can be increased when it is combined with Disulfiram.
+3121,1188,DB02134,Xanthine,DB00313,Valproic acid,Valproic acid may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+3151,1188,DB02134,Xanthine,DB01184,Domperidone,The metabolism of Xanthine can be decreased when combined with Domperidone.
+3229,1188,DB02134,Xanthine,DB00467,Enoxacin,The metabolism of Xanthine can be decreased when combined with Enoxacin.
+3261,1188,DB02134,Xanthine,DB01215,Estazolam,The therapeutic efficacy of Estazolam can be decreased when used in combination with Xanthine.
+3291,1188,DB02134,Xanthine,DB00593,Ethosuximide,Ethosuximide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+3292,1188,DB02134,Xanthine,DB00754,Ethotoin,Ethotoin may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+3299,1188,DB02134,Xanthine,DB01545,Ethyl loflazepate,The therapeutic efficacy of Ethyl loflazepate can be decreased when used in combination with Xanthine.
+3306,1188,DB02134,Xanthine,DB08985,Etilefrine,The risk or severity of adverse effects can be increased when Etilefrine is combined with Xanthine.
+3307,1188,DB02134,Xanthine,DB09166,Etizolam,The therapeutic efficacy of Etizolam can be decreased when used in combination with Xanthine.
+3325,1188,DB02134,Xanthine,DB00927,Famotidine,The metabolism of Xanthine can be decreased when combined with Famotidine.
+3331,1188,DB02134,Xanthine,DB00949,Felbamate,Felbamate may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+3337,1188,DB02134,Xanthine,DB00574,Fenfluramine,Fenfluramine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+3343,1188,DB02134,Xanthine,DB01288,Fenoterol,The risk or severity of adverse effects can be increased when Fenoterol is combined with Xanthine.
+3356,1188,DB02134,Xanthine,DB01195,Flecainide,The metabolism of Xanthine can be decreased when combined with Flecainide.
+3357,1188,DB02134,Xanthine,DB04576,Fleroxacin,The metabolism of Xanthine can be decreased when combined with Fleroxacin.
+3369,1188,DB02134,Xanthine,DB01567,Fludiazepam,The therapeutic efficacy of Fludiazepam can be decreased when used in combination with Xanthine.
+3374,1188,DB02134,Xanthine,DB08972,Flumequine,The metabolism of Xanthine can be decreased when combined with Flumequine.
+3380,1188,DB02134,Xanthine,DB01544,Flunitrazepam,The therapeutic efficacy of Flunitrazepam can be decreased when used in combination with Xanthine.
+3385,1188,DB02134,Xanthine,DB00544,Fluorouracil,The metabolism of Xanthine can be decreased when combined with Fluorouracil.
+3386,1188,DB02134,Xanthine,DB00472,Fluoxetine,The metabolism of Xanthine can be decreased when combined with Fluoxetine.
+3393,1188,DB02134,Xanthine,DB00690,Flurazepam,The therapeutic efficacy of Flurazepam can be decreased when used in combination with Xanthine.
+3397,1188,DB02134,Xanthine,DB00499,Flutamide,The metabolism of Xanthine can be decreased when combined with Flutamide.
+3404,1188,DB02134,Xanthine,DB00176,Fluvoxamine,The metabolism of Xanthine can be decreased when combined with Fluvoxamine.
+3410,1188,DB02134,Xanthine,DB00983,Formoterol,The risk or severity of hypokalemia can be increased when Xanthine is combined with Formoterol.
+3446,1188,DB02134,Xanthine,DB00996,Gabapentin,Gabapentin may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+3448,1188,DB02134,Xanthine,DB06554,Gaboxadol,Gaboxadol may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+3463,1188,DB02134,Xanthine,DB01241,Gemfibrozil,The metabolism of Xanthine can be decreased when combined with Gemfibrozil.
+3517,1188,DB02134,Xanthine,DB00629,Guanabenz,The metabolism of Xanthine can be decreased when combined with Guanabenz.
+3559,1188,DB02134,Xanthine,DB00502,Haloperidol,The metabolism of Xanthine can be decreased when combined with Haloperidol.
+3608,1188,DB02134,Xanthine,DB01355,Hexobarbital,The serum concentration of Xanthine can be decreased when it is combined with Hexobarbital.
+3609,1188,DB02134,Xanthine,DB08957,Hexoprenaline,The risk or severity of hypokalemia can be increased when Xanthine is combined with Hexoprenaline.
+3651,1188,DB02134,Xanthine,DB09352,Hydroxyamphetamine,The risk or severity of adverse effects can be increased when Hydroxyamphetamine is combined with Xanthine.
+3676,1188,DB02134,Xanthine,DB00281,Lidocaine,The metabolism of Xanthine can be decreased when combined with Lidocaine.
+3677,1188,DB02134,Xanthine,DB01365,Mephentermine,The risk or severity of adverse effects can be increased when Mephentermine is combined with Xanthine.
+3689,1188,DB02134,Xanthine,DB08954,Ifenprodil,Ifenprodil may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+3696,1188,DB02134,Xanthine,DB00458,Imipramine,The metabolism of Xanthine can be decreased when combined with Imipramine.
+3762,1188,DB02134,Xanthine,DB00221,Isoetharine,The risk or severity of hypokalemia can be increased when Xanthine is combined with Isoetharine.
+3767,1188,DB02134,Xanthine,DB00951,Isoniazid,The serum concentration of Xanthine can be increased when it is combined with Isoniazid.
+3779,1188,DB02134,Xanthine,DB01064,Isoprenaline,The serum concentration of Xanthine can be decreased when it is combined with Isoprenaline.
+3823,1188,DB02134,Xanthine,DB01026,Ketoconazole,The metabolism of Xanthine can be decreased when combined with Ketoconazole.
+3869,1188,DB02134,Xanthine,DB00598,Labetalol,The risk or severity of adverse effects can be increased when Labetalol is combined with Xanthine.
+3878,1188,DB02134,Xanthine,DB00555,Lamotrigine,Lamotrigine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+3899,1188,DB02134,Xanthine,DB01097,Leflunomide,The serum concentration of Xanthine can be decreased when it is combined with Leflunomide.
+3939,1188,DB02134,Xanthine,DB14506,Lithium hydroxide,The serum concentration of Lithium hydroxide can be decreased when it is combined with Xanthine.
+3948,1188,DB02134,Xanthine,DB00978,Lomefloxacin,The metabolism of Xanthine can be decreased when combined with Lomefloxacin.
+3958,1188,DB02134,Xanthine,DB00186,Lorazepam,The therapeutic efficacy of Lorazepam can be decreased when used in combination with Xanthine.
+4011,1188,DB02134,Xanthine,DB00934,Maprotiline,The metabolism of Xanthine can be decreased when combined with Maprotiline.
+4041,1188,DB02134,Xanthine,DB13437,Medazepam,The therapeutic efficacy of Medazepam can be decreased when used in combination with Xanthine.
+4044,1188,DB02134,Xanthine,DB00784,Mefenamic acid,The metabolism of Xanthine can be decreased when combined with Mefenamic acid.
+4060,1188,DB02134,Xanthine,DB00532,Mephenytoin,Mephenytoin may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+4086,1188,DB02134,Xanthine,DB00816,Orciprenaline,The risk or severity of adverse effects can be increased when Orciprenaline is combined with Xanthine.
+4099,1188,DB02134,Xanthine,DB00463,Metharbital,Metharbital may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+4114,1188,DB02134,Xanthine,DB00553,Methoxsalen,The metabolism of Xanthine can be decreased when combined with Methoxsalen.
+4117,1188,DB02134,Xanthine,DB13624,Methoxyphenamine,The risk or severity of adverse effects can be increased when Methoxyphenamine is combined with Xanthine.
+4168,1188,DB02134,Xanthine,DB01233,Metoclopramide,The metabolism of Xanthine can be decreased when combined with Metoclopramide.
+4171,1188,DB02134,Xanthine,DB00264,Metoprolol,The risk or severity of adverse effects can be increased when Metoprolol is combined with Xanthine.
+4178,1188,DB02134,Xanthine,DB00379,Mexiletine,The metabolism of Xanthine can be decreased when combined with Mexiletine.
+4184,1188,DB02134,Xanthine,DB06148,Mianserin,The metabolism of Mianserin can be decreased when combined with Xanthine.
+4192,1188,DB02134,Xanthine,DB00683,Midazolam,The therapeutic efficacy of Midazolam can be decreased when used in combination with Xanthine.
+4195,1188,DB02134,Xanthine,DB00211,Midodrine,The risk or severity of adverse effects can be increased when Midodrine is combined with Xanthine.
+4205,1188,DB02134,Xanthine,DB00370,Mirtazapine,The metabolism of Xanthine can be decreased when combined with Mirtazapine.
+4409,1188,DB02134,Xanthine,DB00461,Nabumetone,The metabolism of Xanthine can be decreased when combined with Nabumetone.
+4421,1188,DB02134,Xanthine,DB00779,Nalidixic acid,The metabolism of Xanthine can be decreased when combined with Nalidixic acid.
+4436,1188,DB02134,Xanthine,DB06711,Naphazoline,The risk or severity of adverse effects can be increased when Naphazoline is combined with Xanthine.
+4463,1188,DB02134,Xanthine,DB00238,Nevirapine,The metabolism of Xanthine can be decreased when combined with Nevirapine.
+4477,1188,DB02134,Xanthine,DB06803,Niclosamide,The metabolism of Xanthine can be decreased when combined with Niclosamide.
+4485,1188,DB02134,Xanthine,DB01115,Nifedipine,The metabolism of Xanthine can be decreased when combined with Nifedipine.
+4506,1188,DB02134,Xanthine,DB01595,Nitrazepam,The therapeutic efficacy of Nitrazepam can be decreased when used in combination with Xanthine.
+4539,1188,DB02134,Xanthine,DB01059,Norfloxacin,The metabolism of Xanthine can be decreased when combined with Norfloxacin.
+4567,1188,DB02134,Xanthine,DB06152,Nylidrin,The risk or severity of adverse effects can be increased when Nylidrin is combined with Xanthine.
+4578,1188,DB02134,Xanthine,DB11919,6-O-benzylguanine,The metabolism of 6-O-benzylguanine can be decreased when combined with Xanthine.
+4583,1188,DB02134,Xanthine,DB01165,Ofloxacin,The metabolism of Xanthine can be decreased when combined with Ofloxacin.
+4585,1188,DB02134,Xanthine,DB00334,Olanzapine,The metabolism of Xanthine can be decreased when combined with Olanzapine.
+4595,1188,DB02134,Xanthine,DB00904,Ondansetron,The metabolism of Xanthine can be decreased when combined with Ondansetron.
+4601,1188,DB02134,Xanthine,DB01173,Orphenadrine,The metabolism of Xanthine can be decreased when combined with Orphenadrine.
+4616,1188,DB02134,Xanthine,DB00842,Oxazepam,The therapeutic efficacy of Oxazepam can be decreased when used in combination with Xanthine.
+4628,1188,DB02134,Xanthine,DB13627,Oxolinic acid,The metabolism of Xanthine can be decreased when combined with Oxolinic acid.
+4631,1188,DB02134,Xanthine,DB01580,Oxprenolol,The risk or severity of adverse effects can be increased when Oxprenolol is combined with Xanthine.
+4636,1188,DB02134,Xanthine,DB00935,Oxymetazoline,The risk or severity of adverse effects can be increased when Oxymetazoline is combined with Xanthine.
+4725,1188,DB02134,Xanthine,DB00299,Penciclovir,The metabolism of Xanthine can be decreased when combined with Penciclovir.
+4737,1188,DB02134,Xanthine,DB00312,Pentobarbital,The serum concentration of Xanthine can be decreased when it is combined with Pentobarbital.
+4740,1188,DB02134,Xanthine,DB00806,Pentoxifylline,The serum concentration of Xanthine can be increased when it is combined with Pentoxifylline.
+4748,1188,DB02134,Xanthine,DB00850,Perphenazine,The metabolism of Xanthine can be decreased when combined with Perphenazine.
+4753,1188,DB02134,Xanthine,DB01121,Phenacemide,Phenacemide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+4754,1188,DB02134,Xanthine,DB03783,Phenacetin,The metabolism of Phenacetin can be decreased when combined with Xanthine.
+4762,1188,DB02134,Xanthine,DB00830,Phenmetrazine,The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Xanthine.
+4763,1188,DB02134,Xanthine,DB01174,Phenobarbital,The serum concentration of Xanthine can be decreased when it is combined with Phenobarbital.
+4771,1188,DB02134,Xanthine,DB00191,Phentermine,The risk or severity of adverse effects can be increased when Phentermine is combined with Xanthine.
+4828,1188,DB02134,Xanthine,DB00960,Pindolol,The risk or severity of adverse effects can be increased when Pindolol is combined with Xanthine.
+4831,1188,DB02134,Xanthine,DB13823,Pipemidic acid,The metabolism of Xanthine can be decreased when combined with Pipemidic acid.
+4845,1188,DB02134,Xanthine,DB01291,Pirbuterol,The risk or severity of hypokalemia can be increased when Xanthine is combined with Pirbuterol.
+4875,1188,DB02134,Xanthine,DB06715,Potassium Iodide,Potassium Iodide may decrease the excretion rate of Xanthine which could result in a higher serum level.
+4883,1188,DB02134,Xanthine,DB01297,Practolol,The risk or severity of adverse effects can be increased when Practolol is combined with Xanthine.
+4890,1188,DB02134,Xanthine,DB01588,Prazepam,The therapeutic efficacy of Prazepam can be decreased when used in combination with Xanthine.
+4891,1188,DB02134,Xanthine,DB01058,Praziquantel,The metabolism of Xanthine can be decreased when combined with Praziquantel.
+4908,1188,DB02134,Xanthine,DB01087,Primaquine,The metabolism of Xanthine can be increased when combined with Primaquine.
+4909,1188,DB02134,Xanthine,DB00794,Primidone,The metabolism of Xanthine can be increased when combined with Primidone.
+4911,1188,DB02134,Xanthine,DB01032,Probenecid,The serum concentration of Xanthine can be increased when it is combined with Probenecid.
+4926,1188,DB02134,Xanthine,DB00420,Promazine,The metabolism of Xanthine can be decreased when combined with Promazine.
+4932,1188,DB02134,Xanthine,DB01182,Propafenone,The serum concentration of Xanthine can be increased when it is combined with Propafenone.
+4938,1188,DB02134,Xanthine,DB06479,Propentofylline,The metabolism of Propentofylline can be decreased when combined with Xanthine.
+4946,1188,DB02134,Xanthine,DB00571,Propranolol,The risk or severity of adverse effects can be increased when Propranolol is combined with Xanthine.
+4969,1188,DB02134,Xanthine,DB06814,Protokylol,The risk or severity of hypokalemia can be increased when Xanthine is combined with Protokylol.
+4977,1188,DB02134,Xanthine,DB13449,Proxyphylline,The metabolism of Proxyphylline can be decreased when combined with Xanthine.
+4999,1188,DB02134,Xanthine,DB01589,Quazepam,The therapeutic efficacy of Quazepam can be decreased when used in combination with Xanthine.
+5070,1188,DB02134,Xanthine,DB00740,Riluzole,Riluzole may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5090,1188,DB02134,Xanthine,DB00533,Rofecoxib,The serum concentration of Xanthine can be increased when it is combined with Rofecoxib.
+5152,1188,DB02134,Xanthine,DB00938,Salmeterol,The risk or severity of hypokalemia can be increased when Xanthine is combined with Salmeterol.
+5193,1188,DB02134,Xanthine,DB00418,Secobarbital,The serum concentration of Xanthine can be decreased when it is combined with Secobarbital.
+5253,1188,DB02134,Xanthine,DB00489,Sotalol,The risk or severity of adverse effects can be increased when Sotalol is combined with Xanthine.
+5291,1188,DB02134,Xanthine,DB00619,Imatinib,The metabolism of Xanthine can be decreased when combined with Imatinib.
+5356,1188,DB02134,Xanthine,DB08329,Sulthiame,Sulthiame may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5379,1188,DB02134,Xanthine,DB01044,Gatifloxacin,The metabolism of Xanthine can be decreased when combined with Gatifloxacin.
+5386,1188,DB02134,Xanthine,DB09256,Tegafur,The metabolism of Tegafur can be decreased when combined with Xanthine.
+5391,1188,DB02134,Xanthine,DB00231,Temazepam,The therapeutic efficacy of Temazepam can be decreased when used in combination with Xanthine.
+5403,1188,DB02134,Xanthine,DB00871,Terbutaline,The risk or severity of adverse effects can be increased when Terbutaline is combined with Xanthine.
+5419,1188,DB02134,Xanthine,DB06764,Tetryzoline,The risk or severity of adverse effects can be increased when Tetryzoline is combined with Xanthine.
+5429,1188,DB02134,Xanthine,DB01412,Theobromine,The metabolism of Xanthine can be decreased when combined with Theobromine.
+5430,1188,DB02134,Xanthine,DB00730,Thiabendazole,The metabolism of Xanthine can be decreased when combined with Thiabendazole.
+5472,1188,DB02134,Xanthine,DB00208,Ticlopidine,The metabolism of Xanthine can be decreased when combined with Ticlopidine.
+5487,1188,DB02134,Xanthine,DB00697,Tizanidine,Tizanidine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5524,1188,DB02134,Xanthine,DB13064,Tramazoline,The risk or severity of adverse effects can be increased when Tramazoline is combined with Xanthine.
+5546,1188,DB02134,Xanthine,DB00384,Triamterene,The metabolism of Xanthine can be decreased when combined with Triamterene.
+5556,1188,DB02134,Xanthine,DB00897,Triazolam,The therapeutic efficacy of Triazolam can be decreased when used in combination with Xanthine.
+5566,1188,DB02134,Xanthine,DB00831,Trifluoperazine,The metabolism of Xanthine can be decreased when combined with Trifluoperazine.
+5576,1188,DB02134,Xanthine,DB00347,Trimethadione,Trimethadione may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5610,1188,DB02134,Xanthine,DB08841,Tyramine,The risk or severity of adverse effects can be increased when Tyramine is combined with Xanthine.
+5665,1188,DB02134,Xanthine,DB01080,Vigabatrin,Vigabatrin may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5666,1188,DB02134,Xanthine,DB09185,Viloxazine,The metabolism of Xanthine can be decreased when combined with Viloxazine.
+5717,1188,DB02134,Xanthine,DB00549,Zafirlukast,The serum concentration of Zafirlukast can be decreased when it is combined with Xanthine.
+5719,1188,DB02134,Xanthine,DB00962,Zaleplon,Zaleplon may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5732,1188,DB02134,Xanthine,DB00425,Zolpidem,The metabolism of Xanthine can be decreased when combined with Zolpidem.
+5734,1188,DB02134,Xanthine,DB00909,Zonisamide,Zonisamide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5736,1188,DB02134,Xanthine,DB09225,Zotepine,The metabolism of Zotepine can be decreased when combined with Xanthine.
+5757,1188,DB02134,Xanthine,DB00783,Estradiol,The metabolism of Xanthine can be decreased when combined with Estradiol.
+5803,1188,DB02134,Xanthine,DB03604,Tiratricol,Tiratricol may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5816,1188,DB02134,Xanthine,DB00668,Epinephrine,The risk or severity of adverse effects can be increased when Epinephrine is combined with Xanthine.
+5819,1188,DB02134,Xanthine,DB00451,Levothyroxine,Levothyroxine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5826,1188,DB02134,Xanthine,DB01576,Dextroamphetamine,The risk or severity of adverse effects can be increased when Dextroamphetamine is combined with Xanthine.
+5906,1188,DB02134,Xanthine,DB00610,Metaraminol,The risk or severity of adverse effects can be increased when Metaraminol is combined with Xanthine.
+5920,1188,DB02134,Xanthine,DB00279,Liothyronine,Liothyronine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5991,1188,DB02134,Xanthine,DB00977,Ethinylestradiol,The metabolism of Xanthine can be decreased when combined with Ethinylestradiol.
+6009,1188,DB02134,Xanthine,DB01424,Aminophenazone,The metabolism of Xanthine can be decreased when combined with Aminophenazone.
+6041,1188,DB02134,Xanthine,DB00388,Phenylephrine,The risk or severity of adverse effects can be increased when Phenylephrine is combined with Xanthine.
+6082,1188,DB02134,Xanthine,DB00723,Methoxamine,The risk or severity of adverse effects can be increased when Methoxamine is combined with Xanthine.
+6099,1188,DB02134,Xanthine,DB09241,Methylene blue,The metabolism of Xanthine can be increased when combined with Methylene blue.
+6476,1188,DB02134,Xanthine,DB05246,Methsuximide,Methsuximide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+6839,1188,DB02134,Xanthine,DB00832,Phensuximide,Phensuximide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+7028,1188,DB02134,Xanthine,DB00852,Pseudoephedrine,The risk or severity of adverse effects can be increased when Pseudoephedrine is combined with Xanthine.
+7029,1188,DB02134,Xanthine,DB00937,Diethylpropion,The risk or severity of adverse effects can be increased when Diethylpropion is combined with Xanthine.
+7172,1188,DB02134,Xanthine,DB09203,Synephrine,The risk or severity of adverse effects can be increased when Synephrine is combined with Xanthine.
+8271,1188,DB02134,Xanthine,DB00849,Methylphenobarbital,The serum concentration of Xanthine can be decreased when it is combined with Methylphenobarbital.
+8280,1188,DB02134,Xanthine,DB00617,Paramethadione,Paramethadione may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+8646,1188,DB02134,Xanthine,DB01667,8-azaguanine,The metabolism of Xanthine can be decreased when combined with 8-azaguanine.
+8982,1188,DB02134,Xanthine,DB00607,Nafcillin,The metabolism of Xanthine can be increased when combined with Nafcillin.
+9034,1188,DB02134,Xanthine,DB00474,Methohexital,The serum concentration of Xanthine can be decreased when it is combined with Methohexital.
+9294,1188,DB02134,Xanthine,DB01364,Ephedrine,The risk or severity of adverse effects can be increased when Ephedrine is combined with Xanthine.
+9305,1188,DB02134,Xanthine,DB03374,"3,5-Diiodotyrosine","3,5-Diiodotyrosine may decrease the excretion rate of Xanthine which could result in a higher serum level."
+9403,1188,DB02134,Xanthine,DB13954,Estradiol cypionate,The metabolism of Estradiol cypionate can be decreased when combined with Xanthine.
+9433,1188,DB02134,Xanthine,DB01223,Aminophylline,The metabolism of Xanthine can be decreased when combined with Aminophylline.
+9880,1188,DB02134,Xanthine,DB04839,Cyproterone acetate,The metabolism of Xanthine can be increased when combined with Cyproterone acetate.
+10007,1188,DB02134,Xanthine,DB01556,Chlorphentermine,The risk or severity of adverse effects can be increased when Chlorphentermine is combined with Xanthine.
+10168,1188,DB02134,Xanthine,DB13174,Rhein,The metabolism of Xanthine can be decreased when combined with Rhein.
+10230,1188,DB02134,Xanthine,DB12945,Dihydralazine,The metabolism of Xanthine can be decreased when combined with Dihydralazine.
+10391,1188,DB02134,Xanthine,DB09011,Beclamide,Beclamide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+10630,1188,DB02134,Xanthine,DB13799,Ethadione,Ethadione may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+10661,1188,DB02134,Xanthine,DB14132,8-chlorotheophylline,The metabolism of 8-chlorotheophylline can be decreased when combined with Xanthine.
+10783,1188,DB02134,Xanthine,DB06470,Clomethiazole,Clomethiazole may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+10836,1188,DB02134,Xanthine,DB01577,Metamfetamine,The risk or severity of adverse effects can be increased when Metamfetamine is combined with Xanthine.
+11125,1188,DB02134,Xanthine,DB14509,Lithium carbonate,The serum concentration of Lithium carbonate can be decreased when it is combined with Xanthine.
+11808,1188,DB02134,Xanthine,DB14018,Bromotheophylline,The metabolism of Bromotheophylline can be decreased when combined with Xanthine.
+12560,1188,DB02134,Xanthine,DB00199,Erythromycin,The metabolism of Xanthine can be decreased when combined with Erythromycin.
+13314,1188,DB02134,Xanthine,DB13872,Lormetazepam,The therapeutic efficacy of Lormetazepam can be decreased when used in combination with Xanthine.
+13791,1188,DB02134,Xanthine,DB13956,Estradiol valerate,The metabolism of Estradiol valerate can be decreased when combined with Xanthine.
+14052,1188,DB02134,Xanthine,DB00330,Ethambutol,The metabolism of Xanthine can be decreased when combined with Ethambutol.
+14113,1188,DB02134,Xanthine,DB13455,Phenibut,Phenibut may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+15664,1188,DB02134,Xanthine,DB11932,Abametapir,The serum concentration of Xanthine can be increased when it is combined with Abametapir.
+16078,1188,DB02134,Xanthine,DB00470,Dronabinol,The metabolism of Xanthine can be decreased when combined with Dronabinol.
+16229,1188,DB02134,Xanthine,DB13203,Bamifylline,The metabolism of Bamifylline can be decreased when combined with Xanthine.
+16362,1188,DB02134,Xanthine,DB01100,Pimozide,The metabolism of Xanthine can be decreased when combined with Pimozide.
+17925,1188,DB02134,Xanthine,DB01511,Delorazepam,The therapeutic efficacy of Delorazepam can be decreased when used in combination with Xanthine.
+21138,1188,DB02134,Xanthine,DB03322,Dexpropranolol,The risk or severity of adverse effects can be increased when Dexpropranolol is combined with Xanthine.
+21777,1188,DB02134,Xanthine,DB13852,Mefenorex,The risk or severity of adverse effects can be increased when Mefenorex is combined with Xanthine.
+21850,1188,DB02134,Xanthine,DB13812,Bufylline,The metabolism of Bufylline can be decreased when combined with Xanthine.
+24083,1188,DB02134,Xanthine,DB00653,Magnesium sulfate,Magnesium sulfate may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+26175,1188,DB02134,Xanthine,DB01442,MMDA,The risk or severity of adverse effects can be increased when MMDA is combined with Xanthine.
+26248,1188,DB02134,Xanthine,DB11994,Diacerein,The metabolism of Xanthine can be decreased when combined with Diacerein.
+26533,1188,DB02134,Xanthine,DB11549,Tiletamine,Tiletamine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+26757,1188,DB02134,Xanthine,DB01037,Selegiline,The metabolism of Xanthine can be decreased when combined with Selegiline.
+26934,1188,DB02134,Xanthine,DB00397,Phenylpropanolamine,The risk or severity of adverse effects can be increased when Phenylpropanolamine is combined with Xanthine.
+27402,1188,DB02134,Xanthine,DB01467,"2,5-Dimethoxy-4-ethylamphetamine","The risk or severity of adverse effects can be increased when 2,5-Dimethoxy-4-ethylamphetamine is combined with Xanthine."
+28329,1188,DB02134,Xanthine,DB13592,Etamiphylline,The metabolism of Etamiphylline can be decreased when combined with Xanthine.
+30668,1188,DB02134,Xanthine,DB04948,Lofexidine,The metabolism of Lofexidine can be decreased when combined with Xanthine.
+31072,1188,DB02134,Xanthine,DB00389,Carbimazole,Carbimazole may decrease the excretion rate of Xanthine which could result in a higher serum level.
+31264,1188,DB02134,Xanthine,DB09117,Paraldehyde,Paraldehyde may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+31640,1188,DB02134,Xanthine,DB00801,Halazepam,The therapeutic efficacy of Halazepam can be decreased when used in combination with Xanthine.
+33572,1188,DB02134,Xanthine,DB00867,Ritodrine,The risk or severity of adverse effects can be increased when Ritodrine is combined with Xanthine.
+33624,1188,DB02134,Xanthine,DB00373,Timolol,The risk or severity of adverse effects can be increased when Timolol is combined with Xanthine.
+33746,1188,DB02134,Xanthine,DB01587,Ketazolam,The therapeutic efficacy of Ketazolam can be decreased when used in combination with Xanthine.
+34312,1188,DB02134,Xanthine,DB00776,Oxcarbazepine,Oxcarbazepine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+35330,1188,DB02134,Xanthine,DB00901,Bitolterol,The risk or severity of hypokalemia can be increased when Xanthine is combined with Bitolterol.
+36462,1188,DB02134,Xanthine,DB00773,Etoposide,The metabolism of Xanthine can be decreased when combined with Etoposide.
+36811,1188,DB02134,Xanthine,DB00841,Dobutamine,The risk or severity of adverse effects can be increased when Dobutamine is combined with Xanthine.
+36920,1188,DB02134,Xanthine,DB13775,Tertatolol,The risk or severity of adverse effects can be increased when Tertatolol is combined with Xanthine.
+37367,1188,DB02134,Xanthine,DB01489,Camazepam,The therapeutic efficacy of Camazepam can be decreased when used in combination with Xanthine.
+37464,1188,DB02134,Xanthine,DB01359,Penbutolol,The risk or severity of adverse effects can be increased when Penbutolol is combined with Xanthine.
+37632,1188,DB02134,Xanthine,DB00546,Adinazolam,The therapeutic efficacy of Adinazolam can be decreased when used in combination with Xanthine.
+38668,1188,DB02134,Xanthine,DB13837,Doxefazepam,The therapeutic efficacy of Doxefazepam can be decreased when used in combination with Xanthine.
+38945,1188,DB02134,Xanthine,DB01056,Tocainide,The metabolism of Xanthine can be decreased when combined with Tocainide.
+40391,1188,DB02134,Xanthine,DB13335,Pinazepam,The therapeutic efficacy of Pinazepam can be decreased when used in combination with Xanthine.
+40632,1188,DB02134,Xanthine,DB04951,Pirfenidone,The metabolism of Pirfenidone can be decreased when combined with Xanthine.
+42396,1188,DB02134,Xanthine,DB13777,Prenalterol,The risk or severity of adverse effects can be increased when Prenalterol is combined with Xanthine.
+43815,1188,DB02134,Xanthine,DB00715,Paroxetine,The metabolism of Xanthine can be decreased when combined with Paroxetine.
+44112,1188,DB02134,Xanthine,DB08807,Bopindolol,The risk or severity of adverse effects can be increased when Bopindolol is combined with Xanthine.
+47953,1188,DB02134,Xanthine,DB04889,Bicifadine,The metabolism of Bicifadine can be decreased when combined with Xanthine.
+50248,1188,DB02134,Xanthine,DB12245,Triclabendazole,The metabolism of Xanthine can be decreased when combined with Triclabendazole.
+50942,1188,DB02134,Xanthine,DB09273,Doxofylline,The risk or severity of adverse effects can be increased when Xanthine is combined with Doxofylline.
+51045,1188,DB02134,Xanthine,DB12752,Bucindolol,The risk or severity of adverse effects can be increased when Bucindolol is combined with Xanthine.
+51081,1188,DB02134,Xanthine,DB00487,Pefloxacin,The metabolism of Xanthine can be decreased when combined with Pefloxacin.
+54766,1188,DB02134,Xanthine,DB01408,Bambuterol,The risk or severity of hypokalemia can be increased when Xanthine is combined with Bambuterol.
+56206,1188,DB02134,Xanthine,DB11511,Difloxacin,The metabolism of Xanthine can be decreased when combined with Difloxacin.
+56208,1188,DB02134,Xanthine,DB11491,Sarafloxacin,The metabolism of Xanthine can be decreased when combined with Sarafloxacin.
+56339,1188,DB02134,Xanthine,DB01320,Fosphenytoin,The serum concentration of Xanthine can be decreased when it is combined with Fosphenytoin.
+58258,1188,DB02134,Xanthine,DB13772,Rufloxacin,The metabolism of Xanthine can be decreased when combined with Rufloxacin.
+59708,1188,DB02134,Xanthine,DB11868,Etiracetam,Etiracetam may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+59768,1188,DB02134,Xanthine,DB00187,Esmolol,The risk or severity of adverse effects can be increased when Esmolol is combined with Xanthine.
+60021,1188,DB02134,Xanthine,DB01405,Temafloxacin,The metabolism of Xanthine can be decreased when combined with Temafloxacin.
+60464,1188,DB02134,Xanthine,DB01208,Sparfloxacin,The metabolism of Xanthine can be decreased when combined with Sparfloxacin.
+60490,1188,DB02134,Xanthine,DB00744,Zileuton,The metabolism of Xanthine can be decreased when combined with Zileuton.
+60511,1188,DB02134,Xanthine,DB06458,Remacemide,Remacemide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+60605,1188,DB02134,Xanthine,DB11443,Orbifloxacin,The metabolism of Xanthine can be decreased when combined with Orbifloxacin.
+60606,1188,DB02134,Xanthine,DB00758,Clopidogrel,The metabolism of Xanthine can be decreased when combined with Clopidogrel.
+60648,1188,DB02134,Xanthine,DB00906,Tiagabine,Tiagabine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+60657,1188,DB02134,Xanthine,DB09351,Levobetaxolol,The risk or severity of adverse effects can be increased when Levobetaxolol is combined with Xanthine.
+60663,1188,DB02134,Xanthine,DB01388,Mibefradil,The metabolism of Xanthine can be decreased when combined with Mibefradil.
+60786,1188,DB02134,Xanthine,DB12531,Lobucavir,The metabolism of Lobucavir can be decreased when combined with Xanthine.
+60789,1188,DB02134,Xanthine,DB01102,Arbutamine,The risk or severity of hypokalemia can be increased when Xanthine is combined with Arbutamine.
+60817,1188,DB02134,Xanthine,DB02568,Peldesine,The metabolism of Peldesine can be decreased when combined with Xanthine.
+60857,1188,DB02134,Xanthine,DB00315,Zolmitriptan,The metabolism of Xanthine can be decreased when combined with Zolmitriptan.
+60961,1188,DB02134,Xanthine,DB00640,Adenosine,The therapeutic efficacy of Adenosine can be decreased when used in combination with Xanthine.
+62065,1188,DB02134,Xanthine,DB01484,"4-Bromo-2,5-dimethoxyamphetamine","The risk or severity of adverse effects can be increased when 4-Bromo-2,5-dimethoxyamphetamine is combined with Xanthine."
+62959,1188,DB02134,Xanthine,DB00685,Trovafloxacin,The metabolism of Xanthine can be decreased when combined with Trovafloxacin.
+64139,1188,DB02134,Xanthine,DB00625,Efavirenz,The metabolism of Xanthine can be decreased when combined with Efavirenz.
+65628,1188,DB02134,Xanthine,DB06769,Bendamustine,The metabolism of Bendamustine can be decreased when combined with Xanthine.
+65772,1188,DB02134,Xanthine,DB13692,Tretoquinol,The risk or severity of adverse effects can be increased when Tretoquinol is combined with Xanthine.
+65814,1188,DB02134,Xanthine,DB13508,Cloranolol,The risk or severity of adverse effects can be increased when Cloranolol is combined with Xanthine.
+65947,1188,DB02134,Xanthine,DB11892,Prulifloxacin,The metabolism of Xanthine can be decreased when combined with Prulifloxacin.
+65957,1188,DB02134,Xanthine,DB11774,Pazufloxacin,The metabolism of Xanthine can be decreased when combined with Pazufloxacin.
+66265,1188,DB02134,Xanthine,DB01191,Dexfenfluramine,The metabolism of Xanthine can be decreased when combined with Dexfenfluramine.
+67532,1188,DB02134,Xanthine,DB07637,Dibromotyrosine,Dibromotyrosine may decrease the excretion rate of Xanthine which could result in a higher serum level.
+68770,1188,DB02134,Xanthine,DB11770,Talinolol,The risk or severity of adverse effects can be increased when Talinolol is combined with Xanthine.
+68792,1188,DB02134,Xanthine,DB12265,Fexinidazole,The metabolism of Xanthine can be decreased when combined with Fexinidazole.
+68865,1188,DB02134,Xanthine,DB09288,Propacetamol,The metabolism of Propacetamol can be decreased when combined with Xanthine.
+69550,1188,DB02134,Xanthine,DB13573,Acefylline,The metabolism of Acefylline can be decreased when combined with Xanthine.
+70569,1188,DB02134,Xanthine,DB13634,Pentifylline,The metabolism of Pentifylline can be decreased when combined with Xanthine.
+71113,1188,DB02134,Xanthine,DB04165,Valpromide,Valpromide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+71188,1188,DB02134,Xanthine,DB11404,Enrofloxacin,The metabolism of Xanthine can be decreased when combined with Enrofloxacin.
+71196,1188,DB02134,Xanthine,DB09001,Barbexaclone,The serum concentration of Xanthine can be decreased when it is combined with Barbexaclone.
+71260,1188,DB02134,Xanthine,DB13338,Flurithromycin,The metabolism of Xanthine can be decreased when combined with Flurithromycin.
+71301,1188,DB02134,Xanthine,DB04861,Nebivolol,The risk or severity of adverse effects can be increased when Nebivolol is combined with Xanthine.
+71371,1188,DB02134,Xanthine,DB01583,Liotrix,Liotrix may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+71698,1188,DB02134,Xanthine,DB13530,Mepindolol,The risk or severity of adverse effects can be increased when Mepindolol is combined with Xanthine.
+71733,1188,DB02134,Xanthine,DB06726,Bufuralol,The risk or severity of adverse effects can be increased when Bufuralol is combined with Xanthine.
+71857,1188,DB02134,Xanthine,DB12927,Theodrenaline,The metabolism of Theodrenaline can be decreased when combined with Xanthine.
+71955,1188,DB02134,Xanthine,DB08952,Indenolol,The risk or severity of adverse effects can be increased when Indenolol is combined with Xanthine.
+72014,1188,DB02134,Xanthine,DB13757,Epanolol,The risk or severity of adverse effects can be increased when Epanolol is combined with Xanthine.
+72060,1188,DB02134,Xanthine,DB13362,Pheneturide,Pheneturide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+72281,1188,DB02134,Xanthine,DB01094,Hesperetin,The metabolism of Xanthine can be decreased when combined with Hesperetin.
+72474,1188,DB02134,Xanthine,DB00365,Grepafloxacin,The metabolism of Xanthine can be decreased when combined with Grepafloxacin.
+72493,1188,DB02134,Xanthine,DB11442,Oleandomycin,The metabolism of Xanthine can be decreased when combined with Oleandomycin.
+77992,1188,DB02134,Xanthine,DB00998,Frovatriptan,The metabolism of Xanthine can be decreased when combined with Frovatriptan.
+79639,1188,DB02134,Xanthine,DB02489,9-Methylguanine,The metabolism of 9-Methylguanine can be decreased when combined with Xanthine.
+82148,1188,DB02134,Xanthine,DB06594,Agomelatine,The metabolism of Agomelatine can be decreased when combined with Xanthine.
+84029,1188,DB02134,Xanthine,DB01211,Clarithromycin,The metabolism of Xanthine can be decreased when combined with Clarithromycin.
+91546,1188,DB02134,Xanthine,DB08496,(R)-warfarin,The metabolism of (R)-warfarin can be decreased when combined with Xanthine.
+92253,1188,DB02134,Xanthine,DB01002,Levobupivacaine,The metabolism of Xanthine can be decreased when combined with Levobupivacaine.
+92786,1188,DB02134,Xanthine,DB11859,Brexanolone,Brexanolone may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+92974,1188,DB02134,Xanthine,DB06262,Droxidopa,The risk or severity of hypokalemia can be increased when Xanthine is combined with Droxidopa.
+94532,1188,DB02134,Xanthine,DB11587,Etafedrine,The risk or severity of hypokalemia can be increased when Xanthine is combined with Etafedrine.
+100684,1188,DB02134,Xanthine,DB04356,9-Deazaguanine,The metabolism of 9-Deazaguanine can be decreased when combined with Xanthine.
+102697,1188,DB02134,Xanthine,DB14672,Oxazepam acetate,The therapeutic efficacy of Oxazepam acetate can be decreased when used in combination with Xanthine.
+102710,1188,DB02134,Xanthine,DB01482,Fenethylline,The metabolism of Xanthine can be decreased when combined with Fenethylline.
+105039,1188,DB02134,Xanthine,DB01566,Methylenedioxyethamphetamine,The risk or severity of adverse effects can be increased when Methylenedioxyethamphetamine is combined with Xanthine.
+108000,1188,DB02134,Xanthine,DB09290,Ramosetron,The metabolism of Ramosetron can be decreased when combined with Xanthine.
+114905,1188,DB02134,Xanthine,DB12212,Landiolol,The risk or severity of adverse effects can be increased when Landiolol is combined with Xanthine.
+119590,1188,DB02134,Xanthine,DB06512,Deramciclane,Deramciclane may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+121892,1188,DB02134,Xanthine,DB04953,Ezogabine,Ezogabine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+121904,1188,DB02134,Xanthine,DB04070,6-Deoxyerythronolide B,The metabolism of Xanthine can be decreased when combined with 6-Deoxyerythronolide B.
+123600,1188,DB02134,Xanthine,DB13139,Levosalbutamol,The risk or severity of hypokalemia can be increased when Xanthine is combined with Levosalbutamol.
+123619,1188,DB02134,Xanthine,DB01628,Etoricoxib,The metabolism of Xanthine can be decreased when combined with Etoricoxib.
+123964,1188,DB02134,Xanthine,DB06235,Vadimezan,The metabolism of Vadimezan can be decreased when combined with Xanthine.
+124093,1188,DB02134,Xanthine,DB06160,Garenoxacin,The metabolism of Xanthine can be decreased when combined with Garenoxacin.
+129228,1188,DB02134,Xanthine,DB06201,Rufinamide,Rufinamide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+132971,1188,DB02134,Xanthine,DB05812,Abiraterone,The serum concentration of Xanthine can be increased when it is combined with Abiraterone.
+134018,1188,DB02134,Xanthine,DB04854,Febuxostat,The serum concentration of the active metabolites of Xanthine can be increased when Xanthine is used in combination with Febuxostat.
+134664,1188,DB02134,Xanthine,DB12537,"1,2-Benzodiazepine","The therapeutic efficacy of 1,2-Benzodiazepine can be decreased when used in combination with Xanthine."
+134780,1188,DB02134,Xanthine,DB08910,Pomalidomide,The metabolism of Pomalidomide can be decreased when combined with Xanthine.
+148192,1188,DB02134,Xanthine,DB01072,Atazanavir,The metabolism of Xanthine can be decreased when combined with Atazanavir.
+149096,1188,DB02134,Xanthine,DB01137,Levofloxacin,The metabolism of Xanthine can be decreased when combined with Levofloxacin.
+152946,1188,DB02134,Xanthine,DB00218,Moxifloxacin,The metabolism of Xanthine can be decreased when combined with Moxifloxacin.
+153941,1188,DB02134,Xanthine,DB00442,Entecavir,The metabolism of Xanthine can be decreased when combined with Entecavir.
+156375,1188,DB02134,Xanthine,DB09480,Iofetamine I-123,The risk or severity of adverse effects can be increased when Iofetamine I-123 is combined with Xanthine.
+156391,1188,DB02134,Xanthine,DB00788,Naproxen,The metabolism of Xanthine can be decreased when combined with Naproxen.
+156419,1188,DB02134,Xanthine,DB01012,Cinacalcet,The metabolism of Xanthine can be decreased when combined with Cinacalcet.
+164739,1188,DB02134,Xanthine,DB06707,Levonordefrin,The risk or severity of adverse effects can be increased when Levonordefrin is combined with Xanthine.
+165688,1188,DB02134,Xanthine,DB13955,Estradiol dienanthate,The metabolism of Estradiol dienanthate can be decreased when combined with Xanthine.
+166558,1188,DB02134,Xanthine,DB06442,Avasimibe,The metabolism of Xanthine can be decreased when combined with Avasimibe.
+175540,1188,DB02134,Xanthine,DB13443,Esatenolol,The risk or severity of adverse effects can be increased when Esatenolol is combined with Xanthine.
+175805,1188,DB02134,Xanthine,DB00296,Ropivacaine,The metabolism of Xanthine can be decreased when combined with Ropivacaine.
+176870,1188,DB02134,Xanthine,DB00530,Erlotinib,The metabolism of Xanthine can be decreased when combined with Erlotinib.
+179344,1188,DB02134,Xanthine,DB09119,Eslicarbazepine acetate,Eslicarbazepine acetate may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+202225,1188,DB02134,Xanthine,DB13179,Troleandomycin,The metabolism of Xanthine can be decreased when combined with Troleandomycin.
+208902,1188,DB02134,Xanthine,DB00980,Ramelteon,The metabolism of Xanthine can be decreased when combined with Ramelteon.
+216239,1188,DB02134,Xanthine,DB00398,Sorafenib,The metabolism of Xanthine can be decreased when combined with Sorafenib.
+219024,1188,DB02134,Xanthine,DB06213,Regadenoson,Xanthine may decrease effectiveness of Regadenoson as a diagnostic agent.
+219078,1188,DB02134,Xanthine,DB06218,Lacosamide,Lacosamide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+219105,1188,DB02134,Xanthine,DB13703,Gepefrine,The risk or severity of adverse effects can be increased when Gepefrine is combined with Xanthine.
+222757,1188,DB02134,Xanthine,DB13953,Estradiol benzoate,The metabolism of Estradiol benzoate can be decreased when combined with Xanthine.
+287180,1188,DB02134,Xanthine,DB00817,Rosoxacin,The metabolism of Xanthine can be decreased when combined with Rosoxacin.
+387447,1188,DB02134,Xanthine,DB00188,Bortezomib,The metabolism of Xanthine can be decreased when combined with Bortezomib.
+392622,1188,DB02134,Xanthine,DB00503,Ritonavir,The metabolism of Xanthine can be increased when combined with Ritonavir.
+439260,1188,DB02134,Xanthine,DB00368,Norepinephrine,The risk or severity of adverse effects can be increased when Norepinephrine is combined with Xanthine.
+441074,1188,DB02134,Xanthine,DB00908,Quinidine,The serum concentration of Xanthine can be increased when it is combined with Quinidine.
+441289,1188,DB02134,Xanthine,DB01337,Pancuronium,The therapeutic efficacy of Pancuronium can be decreased when used in combination with Xanthine.
+443955,1188,DB02134,Xanthine,DB12131,Vinpocetine,Vinpocetine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+446556,1188,DB02134,Xanthine,DB00642,Pemetrexed,The metabolism of Xanthine can be decreased when combined with Pemetrexed.
+446598,1188,DB02134,Xanthine,DB01190,Clindamycin,The metabolism of Xanthine can be decreased when combined with Clindamycin.
+447451,1188,DB02134,Xanthine,DB06419,Cethromycin,The metabolism of Xanthine can be decreased when combined with Cethromycin.
+447715,1188,DB02134,Xanthine,DB05990,Obeticholic acid,The metabolism of Xanthine can be decreased when combined with Obeticholic acid.
+447865,1188,DB02134,Xanthine,DB01873,Epothilone D,The metabolism of Xanthine can be decreased when combined with Epothilone D.
+448013,1188,DB02134,Xanthine,DB03010,Patupilone,The metabolism of Xanthine can be decreased when combined with Patupilone.
+449193,1188,DB02134,Xanthine,DB01656,Roflumilast,The metabolism of Xanthine can be decreased when combined with Roflumilast.
+487101,1188,DB02134,Xanthine,DB11943,Delafloxacin,The metabolism of Xanthine can be decreased when combined with Delafloxacin.
+501254,1188,DB02134,Xanthine,DB12406,Lisofylline,The metabolism of Lisofylline can be decreased when combined with Xanthine.
+516900,1188,DB02134,Xanthine,DB09418,Potassium perchlorate,Potassium perchlorate may decrease the excretion rate of Xanthine which could result in a higher serum level.
+629281,1188,DB02134,Xanthine,DB14715,Cinazepam,The therapeutic efficacy of Cinazepam can be decreased when used in combination with Xanthine.
+644019,1188,DB02134,Xanthine,DB09061,Cannabidiol,Cannabidiol may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+656652,1188,DB02134,Xanthine,DB01303,Oxtriphylline,The metabolism of Xanthine can be decreased when combined with Oxtriphylline.
+657298,1188,DB02134,Xanthine,DB00550,Propylthiouracil,Propylthiouracil may decrease the excretion rate of Xanthine which could result in a higher serum level.
+667468,1188,DB02134,Xanthine,DB01142,Doxepin,The metabolism of Xanthine can be decreased when combined with Doxepin.
+667493,1188,DB02134,Xanthine,DB13644,Methylthiouracil,Methylthiouracil may decrease the excretion rate of Xanthine which could result in a higher serum level.
+685814,1188,DB02134,Xanthine,DB13804,Benzylthiouracil,Benzylthiouracil may decrease the excretion rate of Xanthine which could result in a higher serum level.
+688561,1188,DB02134,Xanthine,DB01366,Procaterol,The risk or severity of adverse effects can be increased when Procaterol is combined with Xanthine.
+941361,1188,DB02134,Xanthine,DB04841,Flunarizine,Flunarizine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+941651,1188,DB02134,Xanthine,DB01623,Thiothixene,The metabolism of Xanthine can be decreased when combined with Thiothixene.
+969516,1188,DB02134,Xanthine,DB11672,Curcumin,The metabolism of Xanthine can be decreased when combined with Curcumin.
+1349907,1188,DB02134,Xanthine,DB00763,Methimazole,Methimazole may decrease the excretion rate of Xanthine which could result in a higher serum level.
+1548943,1188,DB02134,Xanthine,DB06774,Capsaicin,The metabolism of Xanthine can be increased when combined with Capsaicin.
+1549008,1188,DB02134,Xanthine,DB00857,Terbinafine,The metabolism of Xanthine can be decreased when combined with Terbinafine.
+2733526,1188,DB02134,Xanthine,DB00675,Tamoxifen,The metabolism of Xanthine can be decreased when combined with Tamoxifen.
+3000715,1188,DB02134,Xanthine,DB00599,Thiopental,The serum concentration of Xanthine can be decreased when it is combined with Thiopental.
+3001028,1188,DB02134,Xanthine,DB04574,Estrone sulfate,The metabolism of Xanthine can be decreased when combined with Estrone sulfate.
+3001055,1188,DB02134,Xanthine,DB00863,Ranitidine,The metabolism of Xanthine can be decreased when combined with Ranitidine.
+3032285,1188,DB02134,Xanthine,DB01154,Thiamylal,The serum concentration of Xanthine can be decreased when it is combined with Thiamylal.
+3033621,1188,DB02134,Xanthine,DB01594,Cinolazepam,The therapeutic efficacy of Cinolazepam can be decreased when used in combination with Xanthine.
+3033860,1188,DB02134,Xanthine,DB13643,Loprazolam,The therapeutic efficacy of Loprazolam can be decreased when used in combination with Xanthine.
+3034034,1188,DB02134,Xanthine,DB00468,Quinine,The serum concentration of Xanthine can be increased when it is combined with Quinine.
+3052776,1188,DB02134,Xanthine,DB01367,Rasagiline,The metabolism of Xanthine can be decreased when combined with Rasagiline.
+3062316,1188,DB02134,Xanthine,DB01254,Dasatinib,The metabolism of Xanthine can be decreased when combined with Dasatinib.
+3083544,1188,DB02134,Xanthine,DB01274,Arformoterol,The risk or severity of hypokalemia can be increased when Xanthine is combined with Arformoterol.
+3084726,1188,DB02134,Xanthine,DB13396,Neocitrullamon,Neocitrullamon may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+4921596,1188,DB02134,Xanthine,DB14025,Clinafloxacin,The serum concentration of Xanthine can be increased when it is combined with Clinafloxacin.
+5129076,1188,DB02134,Xanthine,DB14507,Lithium citrate,The serum concentration of Lithium citrate can be decreased when it is combined with Xanthine.
+5280343,1188,DB02134,Xanthine,DB04216,Quercetin,The metabolism of Xanthine can be decreased when combined with Quercetin.
+5280440,1188,DB02134,Xanthine,DB11475,Tylosin,The metabolism of Xanthine can be decreased when combined with Tylosin.
+5280961,1188,DB02134,Xanthine,DB01645,Genistein,The metabolism of Xanthine can be decreased when combined with Genistein.
+5282165,1188,DB02134,Xanthine,DB01321,Josamycin,The metabolism of Xanthine can be decreased when combined with Josamycin.
+5282169,1188,DB02134,Xanthine,DB13456,Midecamycin,The metabolism of Xanthine can be decreased when combined with Midecamycin.
+5282211,1188,DB02134,Xanthine,DB13409,Rokitamycin,The metabolism of Xanthine can be decreased when combined with Rokitamycin.
+5282322,1188,DB02134,Xanthine,DB09309,Kitasamycin,The metabolism of Xanthine can be decreased when combined with Kitasamycin.
+5282521,1188,DB02134,Xanthine,DB11471,Tilmicosin,The metabolism of Xanthine can be decreased when combined with Tilmicosin.
+5284583,1188,DB02134,Xanthine,DB01202,Levetiracetam,Levetiracetam may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5284616,1188,DB02134,Xanthine,DB00877,Sirolimus,The metabolism of Xanthine can be decreased when combined with Sirolimus.
+5284627,1188,DB02134,Xanthine,DB00273,Topiramate,Topiramate may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5287620,1188,DB02134,Xanthine,DB07348,Brefeldin A,The metabolism of Xanthine can be decreased when combined with Brefeldin A.
+5287879,1188,DB02134,Xanthine,DB11383,Carbomycin,The metabolism of Xanthine can be decreased when combined with Carbomycin.
+5310985,1188,DB02134,Xanthine,DB05708,GTS-21,The metabolism of GTS-21 can be decreased when combined with Xanthine.
+5311017,1188,DB02134,Xanthine,DB00865,Benzphetamine,The risk or severity of adverse effects can be increased when Benzphetamine is combined with Xanthine.
+5311037,1188,DB02134,Xanthine,DB11757,Istradefylline,The metabolism of Istradefylline can be decreased when combined with Xanthine.
+5311068,1188,DB02134,Xanthine,DB00633,Dexmedetomidine,The metabolism of Xanthine can be decreased when combined with Dexmedetomidine.
+5311454,1188,DB02134,Xanthine,DB09118,Stiripentol,Stiripentol may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5351166,1188,DB02134,Xanthine,DB00851,Dacarbazine,The metabolism of Xanthine can be decreased when combined with Dacarbazine.
+5361323,1188,DB02134,Xanthine,DB00837,Progabide,Progabide may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5362436,1188,DB02134,Xanthine,DB01079,Tegaserod,The metabolism of Xanthine can be decreased when combined with Tegaserod.
+5381226,1188,DB02134,Xanthine,DB01045,Rifampin,The metabolism of Xanthine can be increased when combined with Rifampicin.
+5486971,1188,DB02134,Xanthine,DB00230,Pregabalin,Pregabalin may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+5489638,1188,DB02134,Xanthine,DB12926,Cafedrine,The metabolism of Cafedrine can be decreased when combined with Xanthine.
+5493381,1188,DB02134,Xanthine,DB01609,Deferasirox,The serum concentration of Xanthine can be increased when it is combined with Deferasirox.
+6441094,1188,DB02134,Xanthine,DB11554,Tylvalosin,The metabolism of Xanthine can be decreased when combined with Tylvalosin.
+6442177,1188,DB02134,Xanthine,DB01590,Everolimus,The metabolism of Xanthine can be decreased when combined with Everolimus.
+6445540,1188,DB02134,Xanthine,DB04845,Ixabepilone,The metabolism of Xanthine can be decreased when combined with Ixabepilone.
+6450531,1188,DB02134,Xanthine,DB11405,Eprinomectin,The metabolism of Xanthine can be decreased when combined with Eprinomectin.
+6450551,1188,DB02134,Xanthine,DB06626,Axitinib,The metabolism of Axitinib can be decreased when combined with Xanthine.
+6473883,1188,DB02134,Xanthine,DB00954,Dirithromycin,The metabolism of Xanthine can be decreased when combined with Dirithromycin.
+6918267,1188,DB02134,Xanthine,DB06587,Mitemcinal,The metabolism of Xanthine can be decreased when combined with Mitemcinal.
+6918305,1188,DB02134,Xanthine,DB05087,Ganaxolone,Ganaxolone may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+6918474,1188,DB02134,Xanthine,DB12338,Carisbamate,Carisbamate may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+6918554,1188,DB02134,Xanthine,DB05039,Indacaterol,The risk or severity of adverse effects can be increased when Xanthine is combined with Indacaterol.
+6918612,1188,DB02134,Xanthine,DB11785,Anisodamine,The risk or severity of adverse effects can be increased when Anisodamine is combined with Xanthine.
+6918638,1188,DB02134,Xanthine,DB05015,Belinostat,The metabolism of Xanthine can be increased when combined with Belinostat.
+6918835,1188,DB02134,Xanthine,DB05903,KOS-1584,The metabolism of Xanthine can be decreased when combined with KOS-1584.
+9571107,1188,DB02134,Xanthine,DB01155,Gemifloxacin,The metabolism of Xanthine can be decreased when combined with Gemifloxacin.
+9578507,1188,DB02134,Xanthine,DB11459,Selamectin,The metabolism of Xanthine can be decreased when combined with Selamectin.
+9690109,1188,DB02134,Xanthine,DB06413,Armodafinil,The metabolism of Xanthine can be increased when combined with Armodafinil.
+9818306,1188,DB02134,Xanthine,DB13952,Estradiol acetate,The metabolism of Xanthine can be decreased when combined with Estradiol acetate.
+9820882,1188,DB02134,Xanthine,DB12080,Ritobegron,The risk or severity of adverse effects can be increased when Ritobegron is combined with Xanthine.
+9826451,1188,DB02134,Xanthine,DB09198,Lobeglitazone,The metabolism of Xanthine can be decreased when combined with Lobeglitazone.
+9832750,1188,DB02134,Xanthine,DB11400,Doramectin,The metabolism of Xanthine can be decreased when combined with Doramectin.
+9837243,1188,DB02134,Xanthine,DB05541,Brivaracetam,Brivaracetam may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+9846180,1188,DB02134,Xanthine,DB06210,Eltrombopag,The metabolism of Eltrombopag can be decreased when combined with Xanthine.
+9852188,1188,DB02134,Xanthine,DB14011,Nabiximols,The metabolism of Xanthine can be decreased when combined with Nabiximols.
+9867812,1188,DB02134,Xanthine,DB12404,Remimazolam,The therapeutic efficacy of Remimazolam can be decreased when used in combination with Xanthine.
+9881504,1188,DB02134,Xanthine,DB14575,Eslicarbazepine,Eslicarbazepine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+9924495,1188,DB02134,Xanthine,DB08883,Perampanel,Perampanel may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+9931954,1188,DB02134,Xanthine,DB12332,Rucaparib,The metabolism of Xanthine can be increased when combined with Rucaparib.
+9948102,1188,DB02134,Xanthine,DB11642,Pitolisant,The metabolism of Xanthine can be increased when combined with Pitolisant.
+9977819,1188,DB02134,Xanthine,DB05928,Dovitinib,The metabolism of Xanthine can be increased when combined with Dovitinib.
+10079874,1188,DB02134,Xanthine,DB01152,Candicidin,The metabolism of Xanthine can be decreased when combined with Candicidin.
+10113978,1188,DB02134,Xanthine,DB06589,Pazopanib,The metabolism of Pazopanib can be decreased when combined with Xanthine.
+10127622,1188,DB02134,Xanthine,DB11689,Selumetinib,The metabolism of Selumetinib can be decreased when combined with Xanthine.
+10184665,1188,DB02134,Xanthine,DB09082,Vilanterol,The risk or severity of hypokalemia can be increased when Xanthine is combined with Vilanterol.
+10220503,1188,DB02134,Xanthine,DB09071,Tasimelteon,The metabolism of Tasimelteon can be decreased when combined with Xanthine.
+10264356,1188,DB02134,Xanthine,DB13940,"2,5-Dimethoxy-4-ethylthioamphetamine","The risk or severity of adverse effects can be increased when 2,5-Dimethoxy-4-ethylthioamphetamine is combined with Xanthine."
+10288191,1188,DB02134,Xanthine,DB11967,Binimetinib,The metabolism of Binimetinib can be decreased when combined with Xanthine.
+10372836,1188,DB02134,Xanthine,DB12526,Batefenterol,The risk or severity of hypokalemia can be increased when Xanthine is combined with Batefenterol.
+11284169,1188,DB02134,Xanthine,DB12391,Sagopilone,The metabolism of Xanthine can be decreased when combined with Sagopilone.
+11304743,1188,DB02134,Xanthine,DB08931,Riociguat,Xanthine may increase the hypotensive activities of Riociguat.
+11504295,1188,DB02134,Xanthine,DB09080,Olodaterol,Xanthine may increase the hyperkalemic activities of Olodaterol.
+11505444,1188,DB02134,Xanthine,DB11871,PF-00610355,The risk or severity of hypokalemia can be increased when Xanthine is combined with PF-00610355.
+11520894,1188,DB02134,Xanthine,DB06233,Ridaforolimus,The metabolism of Xanthine can be decreased when combined with Ridaforolimus.
+11561674,1188,DB02134,Xanthine,DB05676,Apremilast,The metabolism of Xanthine can be increased when combined with Apremilast.
+11597698,1188,DB02134,Xanthine,DB01255,Lisdexamfetamine,The risk or severity of adverse effects can be increased when Lisdexamfetamine is combined with Xanthine.
+11601669,1188,DB02134,Xanthine,DB14050,Cannabidivarin,Cannabidivarin may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+11616111,1188,DB02134,Xanthine,DB15203,JNJ-26489112,JNJ-26489112 may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+11658860,1188,DB02134,Xanthine,DB04871,Lorcaserin,The metabolism of Lorcaserin can be decreased when combined with Xanthine.
+11779629,1188,DB02134,Xanthine,DB08941,Isoxsuprine,The risk or severity of adverse effects can be increased when Isoxsuprine is combined with Xanthine.
+11954293,1188,DB02134,Xanthine,DB06216,Asenapine,The metabolism of Asenapine can be decreased when combined with Xanthine.
+11962412,1188,DB02134,Xanthine,DB06119,Cenobamate,Cenobamate may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+11962616,1188,DB02134,Xanthine,DB12100,Abediterol,The risk or severity of hypokalemia can be increased when Xanthine is combined with Abediterol.
+11993740,1188,DB02134,Xanthine,DB06600,Nemonoxacin,The metabolism of Xanthine can be decreased when combined with Nemonoxacin.
+22524140,1188,DB02134,Xanthine,DB11752,Bryostatin 1,The metabolism of Xanthine can be decreased when combined with Bryostatin 1.
+23724530,1188,DB02134,Xanthine,DB06287,Temsirolimus,The metabolism of Xanthine can be decreased when combined with Temsirolimus.
+24860548,1188,DB02134,Xanthine,DB11470,Tildipirosin,The metabolism of Xanthine can be decreased when combined with Tildipirosin.
+24873435,1188,DB02134,Xanthine,DB06290,Simeprevir,The metabolism of Xanthine can be decreased when combined with Simeprevir.
+25145656,1188,DB02134,Xanthine,DB11791,Capmatinib,The metabolism of Xanthine can be decreased when combined with Capmatinib.
+25242512,1188,DB02134,Xanthine,DB09308,Solithromycin,The metabolism of Xanthine can be decreased when combined with Solithromycin.
+42611257,1188,DB02134,Xanthine,DB08881,Vemurafenib,The serum concentration of Xanthine can be increased when it is combined with Vemurafenib.
+44139752,1188,DB02134,Xanthine,DB11837,Osilodrostat,The metabolism of Xanthine can be decreased when combined with Osilodrostat.
+44404226,1188,DB02134,Xanthine,DB14029,Furafylline,The serum concentration of Xanthine can be increased when it is combined with Furafylline.
+45266826,1188,DB02134,Xanthine,DB13108,Mephedrone,The risk or severity of adverse effects can be increased when Mephedrone is combined with Xanthine.
+46216796,1188,DB02134,Xanthine,DB11697,Pacritinib,The metabolism of Xanthine can be decreased when combined with Pacritinib.
+50922675,1188,DB02134,Xanthine,DB11718,Encorafenib,The metabolism of Xanthine can be decreased when combined with Encorafenib.
+54676537,1188,DB02134,Xanthine,DB01418,Acenocoumarol,The metabolism of Xanthine can be decreased when combined with Acenocoumarol.
+54678486,1188,DB02134,Xanthine,DB00682,Warfarin,The metabolism of Xanthine can be decreased when combined with Warfarin.
+54684141,1188,DB02134,Xanthine,DB08880,Teriflunomide,The serum concentration of Xanthine can be decreased when it is combined with Teriflunomide.
+57495353,1188,DB02134,Xanthine,DB16217,Leniolisib,The metabolism of Xanthine can be decreased when combined with Leniolisib.
+66645351,1188,DB02134,Xanthine,DB14635,Curcumin sulfate,The metabolism of Xanthine can be decreased when combined with Curcumin sulfate.
+68029831,1188,DB02134,Xanthine,DB15442,Trilaciclib,The metabolism of Xanthine can be increased when combined with Trilaciclib.
+71496458,1188,DB02134,Xanthine,DB09330,Osimertinib,The serum concentration of Xanthine can be decreased when it is combined with Osimertinib.
+72734323,1188,DB02134,Xanthine,DB13261,Sitafloxacin,The metabolism of Xanthine can be decreased when combined with Sitafloxacin.
+89683805,1188,DB02134,Xanthine,DB13874,Enasidenib,The metabolism of Xanthine can be decreased when combined with Enasidenib.
+89921642,1188,DB02134,Xanthine,DB12026,Voxilaprevir,The metabolism of Voxilaprevir can be decreased when combined with Xanthine.
+117604931,1188,DB02134,Xanthine,DB15669,Fezolinetant,The metabolism of Fezolinetant can be decreased when combined with Xanthine.
+117817422,1188,DB02134,Xanthine,DB17097,Vorasidenib,The metabolism of Vorasidenib can be decreased when combined with Xanthine.
+118115473,1188,DB02134,Xanthine,DB14924,Ritlecitinib,The serum concentration of Xanthine can be increased when it is combined with Ritlecitinib.
+135412795,1188,DB02134,Xanthine,DB14719,Bentazepam,The therapeutic efficacy of Bentazepam can be decreased when used in combination with Xanthine.
+135436543,1188,DB02134,Xanthine,DB13341,Fenozolone,The risk or severity of adverse effects can be increased when Fenozolone is combined with Xanthine.
+135566069,1188,DB02134,Xanthine,DB12266,Epofolate,The metabolism of Xanthine can be decreased when combined with Epofolate.
+"",1188,DB02134,Xanthine,DB00005,Etanercept,The metabolism of Xanthine can be increased when combined with Etanercept.
+"",1188,DB02134,Xanthine,DB00008,Peginterferon alfa-2a,The metabolism of Xanthine can be decreased when combined with Peginterferon alfa-2a.
+"",1188,DB02134,Xanthine,DB00011,Interferon alfa-n1,The metabolism of Xanthine can be decreased when combined with Interferon alfa-n1.
+"",1188,DB02134,Xanthine,DB00018,Interferon alfa-n3,The metabolism of Xanthine can be decreased when combined with Interferon alfa-n3.
+"",1188,DB02134,Xanthine,DB00022,Peginterferon alfa-2b,The serum concentration of Xanthine can be increased when it is combined with Peginterferon alfa-2b.
+"",1188,DB02134,Xanthine,DB00024,Thyrotropin alfa,Thyrotropin alfa may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy.
+"",1188,DB02134,Xanthine,DB00026,Anakinra,The metabolism of Xanthine can be increased when combined with Anakinra.
+"",1188,DB02134,Xanthine,DB00033,Interferon gamma-1b,The metabolism of Xanthine can be decreased when combined with Interferon gamma-1b.
+"",1188,DB02134,Xanthine,DB00034,Interferon alfa-2a,The metabolism of Xanthine can be decreased when combined with Interferon alfa-2a.
+"",1188,DB02134,Xanthine,DB00051,Adalimumab,The serum concentration of Xanthine can be decreased when it is combined with Adalimumab.
+"",1188,DB02134,Xanthine,DB00052,Somatotropin,The metabolism of Xanthine can be increased when combined with Somatotropin.
+"",1188,DB02134,Xanthine,DB00060,Interferon beta-1a,The metabolism of Xanthine can be decreased when combined with Interferon beta-1a.
+"",1188,DB02134,Xanthine,DB00065,Infliximab,The metabolism of Xanthine can be increased when combined with Infliximab.
+"",1188,DB02134,Xanthine,DB00068,Interferon beta-1b,The metabolism of Xanthine can be decreased when combined with Interferon beta-1b.
+"",1188,DB02134,Xanthine,DB00069,Interferon alfacon-1,The metabolism of Xanthine can be decreased when combined with Interferon alfacon-1.
+"",1188,DB02134,Xanthine,DB00071,Insulin pork,The metabolism of Xanthine can be increased when combined with Insulin pork.
+"",1188,DB02134,Xanthine,DB00105,Interferon alfa-2b,The metabolism of Xanthine can be decreased when combined with Interferon alfa-2b.
+"",1188,DB02134,Xanthine,DB00286,Conjugated estrogens,The metabolism of Xanthine can be decreased when combined with Conjugated estrogens.
+"",1188,DB02134,Xanthine,DB01281,Abatacept,The metabolism of Xanthine can be increased when combined with Abatacept.
+"",1188,DB02134,Xanthine,DB01363,Ephedra sinica root,The risk or severity of hypokalemia can be increased when Xanthine is combined with Ephedra sinica root.
+"",1188,DB02134,Xanthine,DB04956,Afelimomab,The metabolism of Xanthine can be increased when combined with Afelimomab.
+"",1188,DB02134,Xanthine,DB05115,NN344,The metabolism of Xanthine can be increased when combined with NN344.
+"",1188,DB02134,Xanthine,DB05258,Interferon alfa,The metabolism of Xanthine can be decreased when combined with Interferon alfa.
+"",1188,DB02134,Xanthine,DB05396,Albinterferon Alfa-2B,The metabolism of Xanthine can be decreased when combined with Albinterferon Alfa-2B.
+"",1188,DB02134,Xanthine,DB05488,Technetium Tc-99m ciprofloxacin,The metabolism of Xanthine can be decreased when combined with Technetium Tc-99m ciprofloxacin.
+"",1188,DB02134,Xanthine,DB06168,Canakinumab,The metabolism of Xanthine can be increased when combined with Canakinumab.
+"",1188,DB02134,Xanthine,DB06273,Tocilizumab,The metabolism of Xanthine can be increased when combined with Tocilizumab.
+"",1188,DB02134,Xanthine,DB06318,AVE9633,The metabolism of Xanthine can be decreased when combined with AVE9633.
+"",1188,DB02134,Xanthine,DB06342,Coltuximab ravtansine,The metabolism of Xanthine can be decreased when combined with Coltuximab ravtansine.
+"",1188,DB02134,Xanthine,DB06372,Rilonacept,The metabolism of Xanthine can be increased when combined with Rilonacept.
+"",1188,DB02134,Xanthine,DB06674,Golimumab,The metabolism of Xanthine can be increased when combined with Golimumab.
+"",1188,DB02134,Xanthine,DB08904,Certolizumab pegol,The metabolism of Xanthine can be increased when combined with Certolizumab pegol.
+"",1188,DB02134,Xanthine,DB09029,Secukinumab,The metabolism of Xanthine can be increased when combined with Secukinumab.
+"",1188,DB02134,Xanthine,DB09036,Siltuximab,The metabolism of Xanthine can be increased when combined with Siltuximab.
+"",1188,DB02134,Xanthine,DB09098,Somatrem,The metabolism of Xanthine can be increased when combined with Somatrem.
+"",1188,DB02134,Xanthine,DB09100,"Thyroid, porcine","Thyroid, porcine may increase the excretion rate of Xanthine which could result in a lower serum level and potentially a reduction in efficacy."
+"",1188,DB02134,Xanthine,DB09122,Peginterferon beta-1a,The metabolism of Xanthine can be decreased when combined with Peginterferon beta-1a.
+"",1188,DB02134,Xanthine,DB09456,Insulin beef,The metabolism of Xanthine can be increased when combined with Insulin beef.
+"",1188,DB02134,Xanthine,DB11124,Racepinephrine,The risk or severity of adverse effects can be increased when Racepinephrine is combined with Xanthine.
+"",1188,DB02134,Xanthine,DB11567,Insulin peglispro,The metabolism of Xanthine can be increased when combined with Insulin peglispro.
+"",1188,DB02134,Xanthine,DB11568,Insulin tregopil,The metabolism of Xanthine can be increased when combined with Insulin tregopil.
+"",1188,DB02134,Xanthine,DB12089,Lorvotuzumab mertansine,The metabolism of Xanthine can be decreased when combined with Lorvotuzumab mertansine.
+"",1188,DB02134,Xanthine,DB12814,Cepeginterferon alfa-2B,The metabolism of Xanthine can be decreased when combined with Cepeginterferon alfa-2B.
+"",1188,DB02134,Xanthine,DB12917,Bimekizumab,The metabolism of Xanthine can be increased when combined with Bimekizumab.
+"",1188,DB02134,Xanthine,DB12950,Albusomatropin,The metabolism of Xanthine can be increased when combined with Albusomatropin.
+"",1188,DB02134,Xanthine,DB13287,Miocamycin,The metabolism of Xanthine can be decreased when combined with Miocamycin.
+"",1188,DB02134,Xanthine,DB13633,Mepartricin,The metabolism of Xanthine can be decreased when combined with Mepartricin.
+"",1188,DB02134,Xanthine,DB14009,Medical Cannabis,The metabolism of Xanthine can be decreased when combined with Medical Cannabis.
+"",1188,DB02134,Xanthine,DB14724,Emapalumab,The metabolism of Xanthine can be increased when combined with Emapalumab.
+"",1188,DB02134,Xanthine,DB14960,Somatrogon,The metabolism of Xanthine can be increased when combined with Somatrogon.
+"",1188,DB02134,Xanthine,DB14999,Human interferon beta,The metabolism of Xanthine can be decreased when combined with Human interferon beta.
+"",1188,DB02134,Xanthine,DB15066,Givosiran,The serum concentration of Xanthine can be increased when it is combined with Givosiran.
+"",1188,DB02134,Xanthine,DB15093,Somapacitan,The metabolism of Xanthine can be increased when combined with Somapacitan.
+"",1188,DB02134,Xanthine,DB15112,Somatropin pegol,The metabolism of Xanthine can be increased when combined with Somatropin pegol.
+"",1188,DB02134,Xanthine,DB15119,Ropeginterferon alfa-2b,The metabolism of Xanthine can be decreased when combined with Ropeginterferon alfa-2b.
+"",1188,DB02134,Xanthine,DB15131,Interferon alfa-2c,The metabolism of Xanthine can be decreased when combined with Interferon alfa-2c.
+"",1188,DB02134,Xanthine,DB15749,Interferon Kappa,The metabolism of Xanthine can be decreased when combined with Interferon Kappa.
+"",1188,DB02134,Xanthine,DB15753,Interferon Gamma,The metabolism of Xanthine can be decreased when combined with Interferon Gamma.
+"",1188,DB02134,Xanthine,DB15762,Satralizumab,The serum concentration of Xanthine can be decreased when it is combined with Satralizumab.
+"",1188,DB02134,Xanthine,DB16220,Lonapegsomatropin,The metabolism of Xanthine can be increased when combined with Lonapegsomatropin.
+"",1188,DB02134,Xanthine,DB16371,Glofitamab,The serum concentration of Xanthine can be increased when it is combined with Glofitamab.
+"",1188,DB02134,Xanthine,DB16672,Epcoritamab,The serum concentration of Xanthine can be increased when it is combined with Epcoritamab.
