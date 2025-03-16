@@ -1,7 +1,3 @@
-Here's a **README** section for your **Frontend Dashboard** built with **HTML, CSS, and JavaScript**:  
-
----
-
 # **Frontend Dashboard**  
 
 🎨 A **responsive and interactive frontend dashboard** built using **HTML, CSS, and JavaScript**, designed to provide a user-friendly interface for managing and visualizing data.  
@@ -30,9 +26,6 @@ Just double-click the `index.html` file or use:
 live-server
 ```
 (If you have **Live Server** installed in VS Code)  
-
-## **📸 Screenshots**  
-🖼️ Add relevant screenshots of your dashboard here.  
 
 ## **💡 How to Use**  
 - Navigate through different sections.  
