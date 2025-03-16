@@ -1,0 +1,377 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+
+<body>
+    <h1>Results</h1>
+    <h2>Input Drugs:</h2>
+    <ul>
+        {% for drug in input_drug_names %}
+        <li>{{ drug }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Similar Drugs:</h2>
+    <ul>
+        {% for drug, similar_drugs in similar_drugs_info.items() %}
+        <li><strong>{{ drug }}:</strong> {{ similar_drugs }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Generated Combinations:</h2>
+    <ul>
+        {% for combo in combinations %}
+        <li>{{ combo }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Interactions:</h2>
+    {% if interactions %}
+    <ul>
+        
+        {% for combo, interaction_results in interactions %}
+        <h3>Combination: {{ combo }}</h3>
+        <ul>
+            {% for drug_pair, description in interaction_results %}
+            <li>{{ drug_pair[0] }} - {{ drug_pair[1] }}: {{ description }}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No interactions found.</p>
+    {% endif %}
+</body>
+
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+<body>
+    <h1>Results</h1>
+
+
+    <h2>Input Drugs:</h2>
+    <ul>
+        {% for drug in input_drug_names %}
+        <li>{{ drug }}</li>
+        {% endfor %}
+    </ul>
+
+   
+    <h2>Similar Drugs:</h2>
+    <ul>
+        {% for drug, similar_drugs in similar_drugs_info.items() %}
+        <li><strong>{{ drug }}:</strong> {{ similar_drugs | join(", ") }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Generated Combinations:</h2>
+    <ul>
+        {% for combo in combinations %}
+        <li>{{ combo }}</li>
+        {% endfor %}
+    </ul>
+
+ 
+    <h2>Interactions:</h2>
+    {% if interactions %}
+        {% for combo, interaction_results in interactions %}
+        <h3>Combination: {{ combo }}</h3>
+        <ul>
+            {% for drug_pair, description in interaction_results %}
+            <li><strong>{{ drug_pair[0] }} - {{ drug_pair[1] }}:</strong> {{ description }}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    {% else %}
+        <p>No interactions found.</p>
+    {% endif %}
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light blue background */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #e6f7ff; /* Light blue background for list items */
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .warning {
+            background-color: #fff3cd;
+            border-left: 6px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .interaction {
+            margin: 10px 0;
+            background-color: #e6f7ff; /* Light blue background for interactions */
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .interaction.severe {
+            border-left: 6px solid #dc3545; /* Red border for severe interactions */
+        }
+        .interaction.moderate {
+            border-left: 6px solid #ffc107; /* Yellow border for moderate interactions */
+        }
+        .interaction.mild {
+            border-left: 6px solid #28a745; /* Green border for mild interactions */
+        }
+        .interaction-type {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Results</h1>
+
+
+    <div class="warning">
+        ⚠️ Warning: The results provided here are for informational purposes only. Always consult a medical professional before making any decisions about your medication.
+    </div>
+
+
+    <h2>Input Drugs:</h2>
+    <ul>
+        {% for drug in input_drug_names %}
+        <li>{{ drug }}</li>
+        {% endfor %}
+    </ul>
+
+   
+    <h2>Similar Drugs:</h2>
+    <ul>
+        {% for drug, similar_drugs in similar_drugs_info.items() %}
+        <li><strong>{{ drug }}:</strong> {{ similar_drugs | join(", ") }}</li>
+        {% endfor %}
+    </ul>
+
+    
+    <h2>Interactions:</h2>
+    {% if interactions %}
+        {% for combo, interaction_results in interactions %}
+        <h3>Drug Pair: {{ combo }}</h3>
+        <ul>
+            {% for drug_pair, description in interaction_results %}
+            <li class="interaction {{ 'severe' if 'severe' in description.lower() else 'moderate' if 'moderate' in description.lower() else 'mild' }}">
+                <div class="interaction-type">
+                    {% if 'severe' in description.lower() %}
+                        Severe Interaction
+                    {% elif 'moderate' in description.lower() %}
+                        Moderate Interaction
+                    {% else %}
+                        Mild Interaction
+                    {% endif %}
+                </div>
+                <strong>{{ drug_pair[0] }} - {{ drug_pair[1] }}:</strong> {{ description }}
+            </li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    {% else %}
+        <p>No interactions found.</p>
+    {% endif %}
+
+
+    <script>
+        // Example: Add a confirmation dialog before leaving the page
+        window.addEventListener('beforeunload', function (e) {
+            e.preventDefault();
+            e.returnValue = '';
+        });
+
+        // Example: Highlight severe interactions
+        const severeInteractions = document.querySelectorAll('.interaction.severe');
+        severeInteractions.forEach(interaction => {
+            interaction.style.backgroundColor = '#f8d7da'; /* Light red background for severe interactions */
+        });
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light blue background */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50; /* Dark blue for headings */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #e6f7ff; /* Light blue background for list items */
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .warning {
+            background-color: #fff3cd; /* Light yellow for warning */
+            border-left: 6px solid #ffc107; /* Yellow border */
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            color: #856404; /* Dark yellow text */
+        }
+
+        .interaction {
+            margin: 10px 0;
+            background-color: #e6f7ff; /* Light blue background for interactions */
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 6px solid #4a90e2; /* Default blue border */
+        }
+
+        .interaction.severe {
+            border-left-color: #dc3545; /* Red border for severe interactions */
+        }
+
+        .interaction.moderate {
+            border-left-color: #ffc107; /* Yellow border for moderate interactions */
+        }
+
+        .interaction.mild {
+            border-left-color: #28a745; /* Green border for mild interactions */
+        }
+
+        .interaction-type {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #2c3e50; /* Dark blue for interaction type */
+        }
+
+        .interaction-description {
+            color: #333; /* Dark gray for description */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.25rem;
+            }
+
+            li {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Results</h1>
+
+    <!-- Warning Message -->
+    <div class="warning">
+        ⚠️ Warning: The results provided here are for informational purposes only. Always consult a medical professional before making any decisions about your medication.
+    </div>
+
+    <!-- Input Drugs Section -->
+    <h2>Input Drugs:</h2>
+    <ul>
+        {% for drug in input_drug_names %}
+        <li>{{ drug }}</li>
+        {% endfor %}
+    </ul>
+
+    <!-- Similar Drugs Section -->
+    <h2>Similar Drugs:</h2>
+    <ul>
+        {% for drug, similar_drugs in similar_drugs_info.items() %}
+        <li><strong>{{ drug }}:</strong> {{ similar_drugs | join(", ") }}</li>
+        {% endfor %}
+    </ul>
+
+    <!-- Interactions Section -->
+    <h2>Interactions:</h2>
+    {% if interactions %}
+        {% for combo, interaction_results in interactions %}
+        <h3>Drug Pair: {{ combo }}</h3>
+        <ul>
+            {% for drug_pair, description in interaction_results %}
+            <li class="interaction {{ 'severe' if 'severe' in description.lower() else 'moderate' if 'moderate' in description.lower() else 'mild' }}">
+                <div class="interaction-type">
+                    {% if 'severe' in description.lower() %}
+                        Severe Interaction
+                    {% elif 'moderate' in description.lower() %}
+                        Moderate Interaction
+                    {% else %}
+                        Mild Interaction
+                    {% endif %}
+                </div>
+                <div class="interaction-description">
+                    <strong>{{ drug_pair[0] }} - {{ drug_pair[1] }}:</strong> {{ description }}
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    {% else %}
+        <p>No interactions found.</p>
+    {% endif %}
+</body>
+</html>
