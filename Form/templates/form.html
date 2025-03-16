@@ -1,0 +1,490 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Interaction Analyzer</title>
+</head>
+<body>
+    <h1>Drug Interaction Analyzer</h1>
+    <form method="POST">
+        <label for="drug_names">Enter drug names separated by spaces (e.g., Aspirin Ibuprofen):</label><br>
+        <input type="text" id="drug_names" name="drug_names" required><br><br>
+        <button type="submit">Analyze</button>
+    </form>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Interaction Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/form.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <h1>💊 Drug Interaction Analyzer</h1>
+        <form id="drug-form" method="post">
+            <label for="drug_names">Enter drug names separated by spaces (e.g., Aspirin Ibuprofen):</label>
+            <input type="text" id="drug_names" name="drug_names" required>
+            <span class="error-message">Please enter at least one drug name.</span>
+            <button type="submit" id="analyze-button">
+                <span id="button-text">Analyze</span>
+                <span id="loading-spinner" class="hidden">⌛</span>
+            </button>
+        </form>
+        <div id="result-section" class="hidden">
+            <h2>Analysis Results</h2>
+            <p id="result-text"></p>
+        </div>
+    </div>
+    <footer>
+        <p>Disclaimer: This tool is for informational purposes only. Consult a healthcare professional for medical advice.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='script/form.js') }}"></script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Interaction Analyzer</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container for the form */
+        .container {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        /* Heading */
+        h1 {
+            text-align: center;
+            color: #4a90e2;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        /* Form Styles */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+
+        input[type="text"] {
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus {
+            border-color: #4a90e2;
+            outline: none;
+        }
+
+        button {
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #357abd;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Drug Interaction Analyzer</h1>
+        <form method="POST">
+            <label for="drug_names">Enter drug names separated by spaces (e.g., Aspirin Ibuprofen):</label>
+            <input type="text" id="drug_names" name="drug_names" required>
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+</body>
+</html> -->
+
+<!----finalll ------------------------------------------->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Interaction Analyzer</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container for the form */
+        .container {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        /* Heading */
+        h1 {
+            text-align: center;
+            color: #4a90e2;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        /* Form Styles */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+
+        input[type="text"] {
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus {
+            border-color: #4a90e2;
+            outline: none;
+        }
+
+        button {
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #357abd;
+        }
+
+        /* Loading Pop-up Styles */
+        .loading-popup {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .loading-content {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .loading-spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #4a90e2;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Drug Interaction Analyzer</h1>
+        <form id="drug-form" method="POST">
+            <label for="drug_names">Enter drug names separated by spaces (e.g., Aspirin Ibuprofen):</label>
+            <input type="text" id="drug_names" name="drug_names" required>
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+
+   
+    <div class="loading-popup" id="loading-popup">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p>Analyzing interactions... Please wait.</p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to handle form submission and show loading pop-up
+        document.getElementById('drug-form').addEventListener('submit', function (event) {
+            // Show the loading pop-up
+            document.getElementById('loading-popup').style.display = 'flex';
+
+            // Optionally, you can add a delay to simulate a loading process
+            // setTimeout(() => {
+            //     document.getElementById('loading-popup').style.display = 'none';
+            // }, 3000); // Hide after 3 seconds (for testing)
+        });
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Interaction Analyzer</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container for the form */
+        .container {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        /* Heading */
+        h1 {
+            text-align: center;
+            color: #4a90e2;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        /* Form Styles */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+
+        input[type="text"] {
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus {
+            border-color: #4a90e2;
+            outline: none;
+        }
+
+        button {
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #357abd;
+        }
+
+        /* Loading Pop-up Styles */
+        .loading-popup {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .loading-content {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .loading-spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #4a90e2;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Drug Interaction Analyzer</h1>
+        <form id="drug-form" method="POST">
+            <label for="drug_names">Enter drug names separated by spaces (e.g., Aspirin Ibuprofen):</label>
+            <input type="text" id="drug_names" name="drug_names" required>
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+
+    <!-- Loading Pop-up -->
+    <div class="loading-popup" id="loading-popup">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p>Analyzing interactions... Please wait.</p>
+        </div>
+    </div>
+
+    <script>
+        // Function to capitalize the first letter of each word
+        function capitalizeFirstLetter(str) {
+            return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
+        }
+
+        // Handle form submission
+        document.getElementById('drug-form').addEventListener('submit', function (event) {
+            // Get the input value
+            const drugInput = document.getElementById('drug_names');
+            const drugNames = drugInput.value;
+
+            // Capitalize the first letter of each word
+            const capitalizedDrugNames = capitalizeFirstLetter(drugNames);
+
+            // Update the input value with the capitalized names
+            drugInput.value = capitalizedDrugNames;
+
+            // Show the loading pop-up
+            document.getElementById('loading-popup').style.display = 'flex';
+
+            // Optionally, you can add a delay to simulate a loading process
+            // setTimeout(() => {
+            //     document.getElementById('loading-popup').style.display = 'none';
+            // }, 3000); // Hide after 3 seconds (for testing)
+        });
+    </script>
+</body>
+</html>
