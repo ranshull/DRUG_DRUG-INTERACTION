@@ -1,52 +1,97 @@
 :root {
-    --background_light: #F2F9FE;
-    --background_dark: #223344;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', serif;
-  }
-  
-  body {
-    height: 100vh;
-    transition: 1s;
-  }
-  
-  .author-info {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 16px;
-    color: rgb(55, 65, 81);
-  }
-  
-  .author-info a {
-    text-decoration: none;
-  }
-  
-  /* Toggle mode light-dark */
-  .toggle {
-    cursor: pointer;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    width: 45px;
-    height: 22px;
-    border-radius: 50px;
-    transition: 1s;
-  }
-  
-  .toggle img {
-    width: 35%;
-    line-height: 45px;
-    text-align: center;
-    font-size: 20px;
-    z-index: 1;
-  }
-  
-  .toggle .ball {
+  --background_light: #F2F9FE;
+  --background_dark: #223344;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', serif;
+}
+
+body {
+  height: 100vh;
+  transition: 1s;
+}
+
+/* Light Theme Text Colors */
+.light {
+  background-color: #F2F9FE;
+  color: #223344; /* Default text color for light theme */
+}
+
+.light .title-menu,
+.light .list-items-menu,
+.light .info,
+.light .main-text,
+.light .second-text,
+.light .about-title,
+.light .about-text,
+.light .contact-title,
+.light .contact-text,
+.light .contact-label,
+.light .contact-value,
+.light .highlight-item span,
+.light .last-text .item p,
+.light .author-info {
+  color: #223344; /* Dark text for light theme */
+}
+
+/* Dark Theme Text Colors */
+.dark {
+  background-color: #111729;
+  color: #ffffff; /* Default text color for dark theme */
+}
+
+.dark .title-menu,
+.dark .list-items-menu,
+.dark .info,
+.dark .main-text,
+.dark .second-text,
+.dark .about-title,
+.dark .about-text,
+.dark .contact-title,
+.dark .contact-text,
+.dark .contact-label,
+.dark .contact-value,
+.dark .highlight-item span,
+.dark .last-text .item p,
+.dark .author-info {
+  color: #ffffff; /* White text for dark theme */
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+/* Toggle mode light-dark */
+.toggle {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 45px;
+  height: 22px;
+  border-radius: 50px;
+  transition: 1s;
+}
+
+.toggle img {
+  width: 35%;
+  line-height: 45px;
+  text-align: center;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.toggle .ball {
     position: absolute;
     width: 18px;
     height: 17px;
@@ -551,3 +596,74 @@
   .dark .contact-value {
     color: #ffffff; /* White text for value in dark theme */
   }
+
+  /* Light Theme Text Colors */
+.light {
+  background-color: #F2F9FE;
+  color: #223344; /* Default text color for light theme */
+}
+
+.light .title-menu,
+.light .list-items-menu,
+.light .info,
+.light .main-text,
+.light .second-text,
+.light .about-title,
+.light .about-text,
+.light .contact-title,
+.light .contact-text,
+.light .contact-label,
+.light .contact-value,
+.light .highlight-item span,
+.light .last-text .item p,
+.light .author-info {
+  color: #223344; /* Dark text for light theme */
+}
+
+/* Dark Theme Text Colors */
+.dark {
+  background-color: #111729;
+  color: #ffffff; /* Default text color for dark theme */
+}
+
+.dark .title-menu,
+.dark .list-items-menu,
+.dark .info,
+.dark .main-text,
+.dark .second-text,
+.dark .about-title,
+.dark .about-text,
+.dark .contact-title,
+.dark .contact-text,
+.dark .contact-label,
+.dark .contact-value,
+.dark .highlight-item span,
+.dark .last-text .item p,
+.dark .author-info {
+  color: #ffffff; /* White text for dark theme */
+}
+
+/* Light theme adjustments */
+.light .about-section {
+  background-color: #ffffff; /* White background for light theme */
+}
+
+.light .about-title,
+.light .about-text {
+  color: #000000; /* Black text for light theme */
+}
+
+.light .contactinfo {
+  background-color: #ffffff; /* White background for light theme */
+  color: #000000; /* Black text for light theme */
+}
+
+/* Dark theme adjustments */
+.dark .about-section {
+  background-color: #333333; /* Dark background for dark theme */
+}
+
+.dark .about-title,
+.dark .about-text {
+  color: #ffffff; /* White text for dark theme */
+}
