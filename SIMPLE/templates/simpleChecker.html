@@ -1,53 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drug Interaction Checker</title>
     <style>
         body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
-}
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
 
-.container {
-    width: 50%;
-    margin: 50px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-input {
-    width: 80%;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
 
-button {
-    padding: 10px 20px;
-    background: #28a745;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
+        button {
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
 
-button:hover {
-    background: #218838;
-}
+        button:hover {
+            background: #218838;
+        }
 
-#results {
-    margin-top: 20px;
-    font-size: 16px;
-}
-
+        #results {
+            margin-top: 20px;
+            font-size: 16px;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>Drug Interaction Checker</h1>
@@ -56,30 +57,35 @@ button:hover {
         <div id="results"></div>
     </div>
 
-    <script >
-        
+    <script>
         function checkInteractions() {
-    const drugInput = document.getElementById("drugInput").value;
-    if (!drugInput) {
-        alert("Please enter drug names!");
-        return;
-    }
+            const drugInput = document.getElementById("drugInput").value.trim();
+            if (!drugInput || !/^[a-zA-Z\s]+$/.test(drugInput)) {
+                alert("Please enter valid drug names (letters and spaces only)!");
+                return;
+            }
 
-    fetch("/check_interaction", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ drugs: drugInput })
-    })
-    .then(response => response.json())
-    .then(data => {
-        const resultsDiv = document.getElementById("results");
-        resultsDiv.innerHTML = "<h3>Results:</h3>";
-        data.interactions.forEach(interaction => {
-            resultsDiv.innerHTML += `<p>${interaction}</p>`;
-        });
-    })
-    .catch(error => console.error("Error:", error));
-}
+            const resultsDiv = document.getElementById("results");
+            resultsDiv.innerHTML = "<p>Loading...</p>";
+
+            fetch("/simpleChecker/check_interaction", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ drugs: drugInput })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    resultsDiv.innerHTML = "<h3>Results:</h3>";
+                    data.interactions.forEach(interaction => {
+                        resultsDiv.innerHTML += `<p>${interaction}</p>`;
+                    });
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                    resultsDiv.innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+                });
+        }
     </script>
 </body>
+
 </html>
