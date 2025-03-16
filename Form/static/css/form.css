@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif; /* Clean and modern font */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    color: #fff; /* White text for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the form */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    max-width: 500px;
+    width: 100%;
+    backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #333; /* Dark text for contrast */
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 600; /* Semi-bold */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: #555; /* Subtle gray for labels */
+    font-weight: 500; /* Medium weight */
+}
+
+input[type="text"] {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+}
+
+input[type="text"]:focus {
+    border-color: #6a11cb; /* Purple border on focus */
+    outline: none;
+    box-shadow: 0 0 8px rgba(106, 17, 203, 0.3); /* Glow effect */
+}
+
+button {
+    background-color: #6a11cb; /* Purple button */
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #2575fc; /* Blue on hover */
+    transform: translateY(-2px); /* Slight lift */
+}
+
+button:active {
+    transform: translateY(0); /* Reset lift on click */
+}
+
+/* Optional: Add a subtle animation to the container */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container {
+    animation: fadeIn 0.8s ease-out;
+}
