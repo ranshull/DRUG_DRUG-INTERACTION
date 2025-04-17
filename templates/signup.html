@@ -1,0 +1,612 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+  <div class="auth-container">
+    <h1>Sign Up</h1>
+    <form method="POST" action="{{ url_for('signup') }}" onsubmit="return validateForm()">
+      <div class="form-group">
+        <label for="name">Username</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required oninput="checkPasswordStrength()" />
+        <span class="toggle-password" onclick="togglePassword('password', this)">✔ Show</span>
+        <div id="strengthText" class="strength-indicator"></div>
+        <div id="passwordTips" class="password-popup"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" id="confirm_password" name="confirm_password" required oninput="checkPasswordMatch()" />
+        <span class="toggle-password" onclick="togglePassword('confirm_password', this)">✔ Show</span>
+        <div id="matchText" class="strength-indicator"></div>
+      </div>
+
+      <button type="submit" class="btn">Sign Up</button>
+    </form>
+    <p>Already have an account? <a href="{{ url_for('login') }}">Login</a></p>
+  </div>
+
+  <script>
+    function validateForm() {
+      return validateEmail() && validatePassword();
+    }
+
+    function validateEmail() {
+      const emailInput = document.getElementById('email').value.trim();
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      if (!emailPattern.test(emailInput)) {
+        alert('Please enter a valid email address.');
+        return false;
+      }
+
+      const domain = emailInput.split('@')[1];
+      const allowedDomains = ['gmail.com', 'yahoo.com', 'yourdomain.com'];
+
+      if (allowedDomains.includes(domain) || domain.endsWith('.in')) {
+        return true;
+      }
+
+      alert('Please use an email address with an accepted domain (e.g., gmail.com, or any .in domain)');
+      return false;
+    }
+
+    function validatePassword() {
+      const password = document.getElementById('password').value;
+      const confirmPassword = document.getElementById('confirm_password').value;
+
+      if (password !== confirmPassword) {
+        alert("Passwords do not match.");
+        return false;
+      }
+      return true;
+    }
+
+  const passwordInput = document.getElementById('password');
+  const passwordTips = document.getElementById('passwordTips');
+  const strengthText = document.getElementById('strengthText');
+
+  passwordInput.addEventListener('focus', () => {
+    if (passwordInput.value.trim() !== '') {
+      passwordTips.style.display = 'block';
+    }
+  });
+
+  passwordInput.addEventListener('blur', () => {
+    setTimeout(() => passwordTips.style.display = 'none', 100); // slight delay to allow clicking suggestions if needed
+  });
+
+  passwordInput.addEventListener('input', () => {
+    const password = passwordInput.value.trim();
+    let strength = 0;
+    let tips = [];
+
+    if (password === '') {
+      strengthText.textContent = '';
+      strengthText.className = '';
+      passwordTips.style.display = 'none';
+      return;
+    }
+
+    if (password.length >= 8) strength++; else tips.push("Use at least 8 characters");
+    if (/[A-Z]/.test(password)) strength++; else tips.push("Add an uppercase letter");
+    if (/[0-9]/.test(password)) strength++; else tips.push("Include a number");
+    if (/[@$!%*?&]/.test(password)) strength++; else tips.push("Use a special character (e.g. @, $, !)");
+
+    // Strength feedback
+    if (strength <= 2) {
+      strengthText.textContent = 'Weak Password';
+      strengthText.className = 'strength-indicator strength-weak';
+    } else if (strength === 3) {
+      strengthText.textContent = 'Medium Strength';
+      strengthText.className = 'strength-indicator strength-medium';
+    } else {
+      strengthText.textContent = 'Strong Password';
+      strengthText.className = 'strength-indicator strength-strong';
+    }
+
+    if (tips.length > 0) {
+      passwordTips.innerHTML = `<strong>Suggestions:</strong><ul><li>${tips.join('</li><li>')}</li></ul>`;
+      if (document.activeElement === passwordInput) {
+        passwordTips.style.display = 'block';
+      }
+    } else {
+      passwordTips.style.display = 'none';
+    }
+  });
+
+    function checkPasswordMatch() {
+      const password = document.getElementById('password').value;
+      const confirmPassword = document.getElementById('confirm_password').value;
+      const matchText = document.getElementById('matchText');
+
+      if (confirmPassword === '') {
+        matchText.textContent = '';
+      } else if (password === confirmPassword) {
+        matchText.textContent = 'Passwords match';
+        matchText.className = 'strength-indicator strength-strong';
+      } else {
+        matchText.textContent = 'Passwords do not match';
+        matchText.className = 'strength-indicator strength-weak';
+      }
+    }
+
+    function togglePassword(fieldId, iconEl) {
+      const input = document.getElementById(fieldId);
+      if (input.type === 'password') {
+        input.type = 'text';
+        iconEl.textContent = '✖ Hide';
+      } else {
+        input.type = 'password';
+        iconEl.textContent = '✔ Show';
+      }
+   }
+  </script>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .strength-indicator {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+        .strength-weak {
+            color: red;
+        }
+        .strength-medium {
+            color: orange;
+        }
+        .strength-strong {
+            color: green;
+        }
+        .toggle-password {
+            cursor: pointer;
+            margin-left: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="auth-container">
+        <h1>Sign Up</h1>
+        <form method="POST" action="{{ url_for('signup') }}" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="name">Username</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required oninput="checkPasswordStrength()" />
+                <span class="toggle-password" onclick="togglePassword('password')">👁 Show</span>
+                <div id="strengthText" class="strength-indicator"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" required oninput="checkPasswordMatch()" />
+                <span class="toggle-password" onclick="togglePassword('confirm_password')">👁 Show</span>
+                <div id="matchText" class="strength-indicator"></div>
+            </div>
+
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="{{ url_for('login') }}">Login</a></p>
+    </div>
+
+    <script>
+        function validateForm() {
+            return validateEmail() && validatePassword();
+        }
+
+        function validateEmail() {
+            const emailInput = document.getElementById('email').value.trim();
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            if (!emailPattern.test(emailInput)) {
+                alert('Please enter a valid email address.');
+                return false;
+            }
+
+            const domain = emailInput.split('@')[1];
+            const allowedDomains = ['gmail.com', 'yahoo.com', 'yourdomain.com'];
+
+            if (allowedDomains.includes(domain) || domain.endsWith('.in')) {
+                return true;
+            }
+
+            alert('Please use an email address with an accepted domain (e.g., gmail.com, or any .in domain)');
+            return false;
+        }
+
+        function validatePassword() {
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirm_password').value;
+
+            if (password !== confirmPassword) {
+                alert("Passwords do not match.");
+                return false;
+            }
+
+            return true;
+        }
+
+        function checkPasswordStrength() {
+            const password = document.getElementById('password').value;
+            const strengthText = document.getElementById('strengthText');
+
+            let strength = 0;
+            if (password.length >= 8) strength++;
+            if (/[A-Z]/.test(password)) strength++;
+            if (/[0-9]/.test(password)) strength++;
+            if (/[@$!%*?&]/.test(password)) strength++;
+
+            if (strength === 0) {
+                strengthText.textContent = '';
+            } else if (strength <= 2) {
+                strengthText.textContent = 'Weak Password';
+                strengthText.className = 'strength-indicator strength-weak';
+            } else if (strength === 3) {
+                strengthText.textContent = 'Medium Strength';
+                strengthText.className = 'strength-indicator strength-medium';
+            } else {
+                strengthText.textContent = 'Strong Password';
+                strengthText.className = 'strength-indicator strength-strong';
+            }
+        }
+
+        function checkPasswordMatch() {
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirm_password').value;
+            const matchText = document.getElementById('matchText');
+
+            if (confirmPassword === '') {
+                matchText.textContent = '';
+            } else if (password === confirmPassword) {
+                matchText.textContent = 'Passwords match';
+                matchText.className = 'strength-indicator strength-strong';
+            } else {
+                matchText.textContent = 'Passwords do not match';
+                matchText.className = 'strength-indicator strength-weak';
+            }
+        }
+
+        function togglePassword(fieldId) {
+            const input = document.getElementById(fieldId);
+            const icon = input.nextElementSibling;
+
+            if (input.type === 'password') {
+                input.type = 'text';
+                icon.textContent = '✖ Hide';
+            } else {
+                input.type = 'password';
+                icon.textContent = '✔ Show';
+            }
+        }
+    </script>
+</body>
+</html>
+
+ -->
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="auth-container">
+        <h1>Sign Up</h1>
+        <form method="POST" action="{{ url_for('signup') }}" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="name">Username</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="{{ url_for('login') }}">Login</a></p>
+    </div>
+
+    <script>
+        function validateForm() {
+            return validateEmail() && validatePassword();
+        }
+
+        function validateEmail() {
+            const emailInput = document.getElementById('email').value.trim();
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            if (!emailPattern.test(emailInput)) {
+                alert('Please enter a valid email address.');
+                return false;
+            }
+
+            const domain = emailInput.split('@')[1];
+            const allowedDomains = ['gmail.com', 'yahoo.com', 'yourdomain.com'];
+
+            if (allowedDomains.includes(domain) || domain.endsWith('.in')) {
+                return true;
+            }
+
+            alert('Please use an email address with an accepted domain (e.g., gmail.com, or any .in domain)');
+            return false;
+        }
+
+        function validatePassword() {
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirm_password').value;
+
+            if (password !== confirmPassword) {
+                alert("Passwords do not match.");
+                return false;
+            }
+
+            // Optional: Add password strength check here if you want
+
+            return true;
+        }
+    </script>
+</body>
+</html>
+ --> 
+
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sign Up</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #e0f0ff, #ffffff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 140, 255, 0.2);
+      width: 350px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #0077cc;
+      margin-bottom: 1rem;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #cce0f5;
+      border-radius: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+
+    .flash {
+      background-color: #ffd2d2;
+      padding: 10px;
+      border-radius: 10px;
+      color: red;
+      margin-bottom: 1rem;
+    }
+
+    .form-container p {
+      margin-top: 1rem;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Sign Up</h2>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <div class="flash">{{ messages[0] }}</div>
+      {% endif %}
+    {% endwith %}
+    <form method="POST" action="/signup" id="signupForm">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="password" name="password" placeholder="Password" required minlength="6" />
+      <input type="password" name="confirm_password" placeholder="Confirm Password" required />
+      <button type="submit">Sign Up</button>
+      <p>Already have an account? <a href="/login">Login</a></p>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("signupForm").onsubmit = function(event) {
+      var password = document.querySelector('input[name="password"]').value;
+      var confirmPassword = document.querySelector('input[name="confirm_password"]').value;
+      var email = document.querySelector('input[name="email"]').value;
+
+      if (password !== confirmPassword) {
+        alert("Passwords do not match!");
+        event.preventDefault(); // Prevent form submission
+      } else if (!/\S+@\S+\.\S+/.test(email)) {
+        alert("Please enter a valid email address.");
+        event.preventDefault();
+      }
+    };
+  </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sign Up</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #e0f0ff, #ffffff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 140, 255, 0.2);
+      width: 350px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #0077cc;
+      margin-bottom: 1rem;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #cce0f5;
+      border-radius: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+
+    .flash {
+      background-color: #ffd2d2;
+      padding: 10px;
+      border-radius: 10px;
+      color: red;
+      margin-bottom: 1rem;
+    }
+
+    .form-container p {
+      margin-top: 1rem;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Sign Up</h2>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <div class="flash">{{ messages[0] }}</div>
+      {% endif %}
+    {% endwith %}
+    <form method="POST" action="/signup" id="signupForm">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="password" name="password" placeholder="Password" required minlength="6" />
+      <input type="password" name="confirm_password" placeholder="Confirm Password" required />
+      <button type="submit">Sign Up</button>
+      <p>Already have an account? <a href="/login">Login</a></p>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("signupForm").onsubmit = function(event) {
+      var password = document.querySelector('input[name="password"]').value;
+      var confirmPassword = document.querySelector('input[name="confirm_password"]').value;
+      var email = document.querySelector('input[name="email"]').value;
+
+      // Regex for valid email format and specific domain validation
+      var emailPattern = /^[a-zA-Z0-9._%+-]+@(gmail\.com|yahoo\.com|outlook\.com)$/;
+
+      // Check if email matches the regex pattern for valid domains
+      if (!emailPattern.test(email)) {
+        alert("Please enter a valid email address with @gmail.com, @yahoo.com, or @outlook.com.");
+        event.preventDefault();  // Prevent form submission
+      } 
+      // Password and confirm password validation
+      else if (password !== confirmPassword) {
+        alert("Passwords do not match!");
+        event.preventDefault();
+      }
+    };
+  </script>
+</body>
+</html>
