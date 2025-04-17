@@ -355,13 +355,13 @@
             {% for drug_pair, description in interaction_results %}
             <li class="interaction {{ 'severe' if 'severe' in description.lower() else 'moderate' if 'moderate' in description.lower() else 'mild' }}">
                 <div class="interaction-type">
-                    {% if 'severe' in description.lower() %}
+                    <!-- {% if 'severe' in description.lower() %}
                         Severe Interaction
                     {% elif 'moderate' in description.lower() %}
                         Moderate Interaction
                     {% else %}
                         Mild Interaction
-                    {% endif %}
+                    {% endif %} -->
                 </div>
                 <div class="interaction-description">
                     <strong>{{ drug_pair[0] }} - {{ drug_pair[1] }}:</strong> {{ description }}
