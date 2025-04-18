@@ -11,7 +11,7 @@ from flask import Blueprint, render_template
 form = Blueprint('form', __name__, static_folder='static', template_folder='templates')
 
 # MongoDB Atlas connection string (replace with your own)
-connection_string = "mongodb://localhost:27017/"
+connection_string = "mongodb+srv://anshulrawat047:qKkqV1ZniiVSENiP@cluster0.c7hskif.mongodb.net/"
 
 # Connect to MongoDB Atlas
 client = MongoClient(connection_string)

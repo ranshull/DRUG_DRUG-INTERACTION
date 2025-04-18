@@ -11,7 +11,7 @@ app = Flask(__name__)
 app.secret_key = "a_random_and_unique_secret_key_1234"
 
 # MongoDB connection (local)
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://anshulrawat047:qKkqV1ZniiVSENiP@cluster0.c7hskif.mongodb.net/")
 db = client.user_auth
 users = db.users
 
