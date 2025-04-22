@@ -11,10 +11,25 @@ from flask import Blueprint, render_template
 form = Blueprint('form', __name__, static_folder='static', template_folder='templates')
 
 # MongoDB Atlas connection string (replace with your own)
-connection_string = "mongodb+srv://anshulrawat047:qKkqV1ZniiVSENiP@cluster0.c7hskif.mongodb.net/"
+# connection_string = "mongodb://localhost:27017/"
+
+
+from pymongo.mongo_client import MongoClient
+
+uri = "mongodb+srv://ANSHUL-MEDSAFE:Yl9B8Rl5QhXdK1D7@cluster0.muostsi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+# Create a new client and connect to the server
+client = MongoClient(uri)
+
+# Send a ping to confirm a successful connection
+try:
+    client.admin.command('ping')
+    print("Pinged your deployment. You successfully connected to MongoDB!")
+except Exception as e:
+    print(e)
 
 # Connect to MongoDB Atlas
-client = MongoClient(connection_string)
+# client = MongoClient(connection_string)
 db = client["Drug_Interaction"]
 collection = db["interaction_files"]
 
@@ -86,10 +101,31 @@ def is_drug_in_csv(drug_name, filename="drug_names_ids.csv"):
                 return True
     return False
 
-def load_similarity_matrix(filename="Drug_data/chem_similarity.csv"):
+def load_similarity_matrix(filename="Drug_data/reduced_drug_similarity_matrix.csv"):
     """Load the drug similarity matrix from a CSV file."""
     similarity_matrix = pd.read_csv(filename, index_col=0)
     return similarity_matrix
+
+# import pandas as pd
+# import requests
+# from io import StringIO
+
+# def load_similarity_matrix(
+#     gcs_url="https://storage.googleapis.com/chemical-smile-similarty-csv-bucket/chem_similarity.csv"
+# ):
+#     """Load the drug similarity matrix from a public GCS URL."""
+#     try:
+#         response = requests.get(gcs_url)
+#         response.raise_for_status()
+
+#         csv_data = StringIO(response.text)
+#         similarity_matrix = pd.read_csv(csv_data, index_col=0)
+
+#         return similarity_matrix
+#     except Exception as e:
+#         print(f"Error loading similarity matrix: {e}")
+#         return None
+
 
 def get_top_similar_drugs(drugbank_id, similarity_matrix, top_n=3):
     """Get the top N similar drugs for a given DrugBank ID."""
@@ -447,7 +483,9 @@ def get_similar_drugs_from_csv(input_drug_name, filename="SAME_DRUG.csv"):
 def index():
     if request.method == "POST":
         # Step 1: Take user input
-        input_drug_names = request.form.get("drug_names").strip().split()
+        # input_drug_names = request.form.get("drug_names").strip().split()
+        input_drug_names = [drug.strip() for drug in request.form.get("drug_names").split(',') if drug.strip()]
+
         
         # Step 2: Check if similar drugs are already present in SAME_DRUG.csv
         similar_drugs_info = {}

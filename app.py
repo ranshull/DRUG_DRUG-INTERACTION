@@ -10,8 +10,26 @@ from SIMPLE.simpleChecker import simpleChecker
 app = Flask(__name__)
 app.secret_key = "a_random_and_unique_secret_key_1234"
 
+
+
+
+# from pymongo.mongo_client import MongoClient
+# from pymongo.server_api import ServerApi
+
+# uri = "mongodb+srv://ANSHUL-MEDSAFE:<Geetaanuj04>@cluster0.muostsi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+# # Create a new client and connect to the server
+# client = MongoClient(uri, server_api=ServerApi('1'))
+
+# # Send a ping to confirm a successful connection
+# try:
+#     client.admin.command('ping')
+#     print("Pinged your deployment. You successfully connected to MongoDB!")
+# except Exception as e:
+#     print(e)
+
 # MongoDB connection (local)
-client = MongoClient("mongodb+srv://anshulrawat047:qKkqV1ZniiVSENiP@cluster0.c7hskif.mongodb.net/")
+client = MongoClient("mongodb+srv://ANSHUL-MEDSAFE:Yl9B8Rl5QhXdK1D7@cluster0.muostsi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client.user_auth
 users = db.users
 
