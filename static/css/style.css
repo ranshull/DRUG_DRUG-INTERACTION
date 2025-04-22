@@ -667,3 +667,90 @@ body {
 .dark .about-text {
   color: #ffffff; /* White text for dark theme */
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .info {
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .data {
+    width: 100%;
+  }
+
+  .image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .buttons-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .button-get,
+  .button-checker,
+  .button-login {
+    width: 80%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .menu-logo {
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    width: 100%;
+    height: auto;
+    position: static;
+    background: none;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  ul li a {
+    font-size: 1.25rem;
+  }
+
+  .about-section,
+  .contact-section {
+    padding: 1rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .first-text,
+  .main-text,
+  .second-text {
+    font-size: 1rem;
+  }
+
+  .menu-toggle {
+    width: 100%;
+  }
+
+  .menu-logo span {
+    font-size: 1rem;
+  }
+}
