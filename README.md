@@ -1,6 +1,6 @@
 # DRUG_DRUG-INTERACTION
 testing drugs
-Atenolol, Phenytoin Xanthine
+Atenolol, Phenytoin , Xanthine
 Omeprazole ,Clopidogrel
 Warfarin ,Phenytoin
 
