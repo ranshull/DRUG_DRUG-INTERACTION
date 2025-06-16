@@ -45,21 +45,21 @@
 
 ## 🧪 How to Use
 
-### 1. Checker Button
+### 1. Checker Button  
 
-Input drugs separated by spaces
-Example:
-Atenolol Phenytoin Xanthine
-Omeprazole Clopidogrel
-Warfarin Phenytoin
+Input drugs separated by spaces  
+Example:  
+Atenolol Phenytoin Xanthine  
+Omeprazole Clopidogrel  
+Warfarin Phenytoin  
 
 ### 2. Analyze Interaction Button
 
-Input drugs separated by commas for a detailed report
-Example:
-Atenolol, Phenytoin, Xanthine
-Omeprazole, Clopidogrel
-Warfarin, Phenytoin
+Input drugs separated by commas for a detailed report  
+Example:  
+Atenolol, Phenytoin, Xanthine  
+Omeprazole, Clopidogrel  
+Warfarin, Phenytoin  
 
 ---
 
